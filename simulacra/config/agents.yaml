@@ -1,0 +1,55 @@
+- name: John Lin
+  age: 42
+  house: Lin Family's House
+  startSubArea: master bedroom
+  traits:
+   - Charismatic
+   - Helpful
+   - Family-oriented
+  jobOrSchoolPlace: Dr. Lin's Family Practice
+  memories:
+    - John Lin is a local doctor @ 'Dr. Lin's Family Practice' who loves to help people
+    - He is always looking for ways to make the process of getting medication easier for his customers
+    - John Lin is living with his wife, Mei Linn, who teaches @ Largerville Public School, and son, Eddy Lin, who is 
+      a student studying music theory
+    - He loves his family very much
+  circRhythm: 7am to 11pm
+  currentAction: sleeping
+
+- name: Mei Lin
+  age: 39
+  house: Lin Family's House
+  startSubArea: master bedroom
+  traits:
+   - Patient
+   - Loving
+   - Artistic
+  jobOrSchoolPlace: Largerville Public School
+  memories:
+    - Mei Lin is a beloved teacher at Largerville Public School
+    - She is married to John Lin and together they have a son, Eddy Lin
+    - She enjoys painting and often holds art classes in the park during summer
+    - She is good friends with Jane Smith, who also has a child studying music
+    - She often shops at the Local Grocery Store and is well-known by the staff
+    - She knows Sam and Jennifer Moore from the community meetings held at the town square
+  circRhythm: 8am to 11pm
+  currentAction: sleeping
+
+- name: Eddy Lin
+  age: 16
+  house: Lin Family's House
+  startSubArea: kid's bedroom
+  traits:
+   - Creative
+   - Introverted
+   - Musically inclined
+  jobOrSchoolPlace: Largerville Public School
+  memories:
+    - Eddy Lin is a student studying music theory
+    - He is the son of John Lin and Mei Lin
+    - He spends most of his time in his room or at the town park, composing music
+    - Eddy Lin is good friends with the Smith's child, who shares his interest in music
+    - He occasionally helps at his father's practice after school
+    - He knows the Rodriguez triplets and finds them a bit overwhelming
+  circRhythm: 7am to 1am
+  currentAction: sleeping

@@ -1,0 +1,173 @@
+---
+- name: "Emily Hunter"
+  age: 32
+  house: "Evergreen Villa"
+  startSubArea: "master bedroom"
+  jobOrSchoolPlace: null
+  traits:
+  - "organized"
+  - "creative"
+  - "adventurous"
+  memories:
+  - "Emily Hunter and Michael Baker are happily married and live together in Evergreen\
+    \ Villa."
+  - "Emily and Michael have always dreamed of having a home filled with love and laughter."
+  - "Olivia Peterson, Emily's sister, is also a part of their household and brings\
+    \ joy to their lives."
+  - "Daniel Thompson, Michael's childhood friend, is like a brother to him and is\
+    \ always there for support."
+  - "Living in Evergreen Villa has given Emily a sense of peace and tranquility."
+  - "Emily loves spending time in the backyard, tending to her garden and enjoying\
+    \ the fresh air."
+  - "One of Emily's fondest memories is cooking with Michael in their spacious kitchen."
+  - "Being surrounded by loved ones and creating memories together is what makes Emily's\
+    \ house a home."
+  circRhythm: "8am to 10pm"
+  currentAction: "relaxing in the living room"
+- name: "Michael Baker"
+  age: 32
+  house: "Evergreen Villa"
+  startSubArea: "master bedroom"
+  jobOrSchoolPlace: null
+  traits:
+  - "friendly"
+  - "hardworking"
+  - "loyal"
+  memories:
+  - "Michael Baker is a dedicated software engineer working at a prestigious tech\
+    \ company."
+  - "He and his wife, Emily Hunter, have created a warm and loving home in Evergreen\
+    \ Villa."
+  - "Michael has fond memories of growing up with his childhood friend, Daniel Thompson,\
+    \ who has always been by his side through thick and thin."
+  - "Living in Evergreen Villa brings Michael a sense of serenity and contentment."
+  circRhythm: "7am to 11pm"
+  currentAction: "relaxing in the living room"
+- name: "Olivia Peterson"
+  age: 28
+  house: "Evergreen Villa"
+  startSubArea: "master bedroom"
+  jobOrSchoolPlace: null
+  traits:
+  - "friendly"
+  - "creative"
+  - "organized"
+  memories:
+  - "Olivia Peterson is a talented artist who creates beautiful paintings"
+  - "She enjoys spending her evenings in the backyard, painting the sunset"
+  - "Olivia Peterson works as a graphic designer for a local advertising agency"
+  - "She remembers the time when she and Emily used to have tea parties in the living\
+    \ room as children"
+  circRhythm: "8am to 12am"
+  currentAction: "painting"
+- name: "Daniel Thompson"
+  age: 32
+  house: "Evergreen Villa"
+  startSubArea: "master bedroom"
+  jobOrSchoolPlace: null
+  traits:
+  - "loyal"
+  - "friendly"
+  - "adventurous"
+  memories:
+  - "Daniel Thompson and his childhood friend, Michael Baker, always used to have\
+    \ adventures in the backyard of Evergreen Villa when they were young."
+  - "Daniel Thompson remembers the time when he and his housemates, Emily Hunter,\
+    \ Michael Baker, and Olivia Peterson, redecorated the living room together. It\
+    \ was a fun and memorable experience."
+  - "Daniel Thompson cherishes the memories of cooking delicious meals with Emily\
+    \ in the kitchen of Evergreen Villa. They have shared many laughter-filled moments\
+    \ over a hot stove."
+  - "Daniel Thompson will always remember the late-night conversations he had with\
+    \ Olivia in the master bedroom. They bonded over their dreams, fears, and aspirations."
+  circRhythm: "6am to 11pm"
+  currentAction: "relaxing in the living room"
+- name: "Eleanor Smith"
+  age: 25
+  house: "The Enchanted Cottage"
+  startSubArea: "living room"
+  jobOrSchoolPlace: null
+  traits:
+  - "friendly"
+  - "creative"
+  - "organized"
+  memories:
+  - "Eleanor Smith and her friends, Oliver Johnson, Sophia Adams, and Henry Davis,\
+    \ decided to live together in 'The Enchanted Cottage'"
+  - "Living in 'The Enchanted Cottage' has created a warm and comfortable environment\
+    \ for Eleanor Smith and her friends"
+  - "Eleanor Smith recalls the first time they decorated the living room together,\
+    \ creating a cozy and inviting space for everyone to enjoy"
+  - "Being part of the household in 'The Enchanted Cottage' has allowed Eleanor Smith\
+    \ to build strong and lasting friendships with Oliver, Sophia, and Henry"
+  - "Eleanor Smith cherishes the memories of fun gatherings and laughter they have\
+    \ shared in the living room"
+  circRhythm: "7am to 11pm"
+  currentAction: "relaxing"
+- name: "Oliver Johnson"
+  age: 28
+  house: "The Enchanted Cottage"
+  startSubArea: "living room"
+  jobOrSchoolPlace: null
+  traits:
+  - "friendly"
+  - "organized"
+  - "creative"
+  memories:
+  - "Oliver Johnson and his friends Eleanor Smith, Sophia Adams, and Henry Davis decided\
+    \ to live together in 'The Enchanted Cottage' to enjoy each other's company and\
+    \ share the expenses."
+  - "Living with friends has been an amazing experience for Oliver. They have created\
+    \ a warm and welcoming atmosphere in their home."
+  - "Oliver has created a cozy corner in the living room where he can unleash his\
+    \ creativity and work on his art projects."
+  - "Every morning, Oliver enjoys preparing breakfast in the kitchen with his friends.\
+    \ It's a great bonding time for them."
+  - "Oliver loves spending time in the garden, nurturing plants and enjoying the beauty\
+    \ of nature. It brings him peace and relaxation."
+  circRhythm: "8am to 12am"
+  currentAction: "painting"
+- name: "Sophia Adams"
+  age: 28
+  house: "The Enchanted Cottage"
+  startSubArea: "living room"
+  jobOrSchoolPlace: null
+  traits:
+  - "friendly"
+  - "organized"
+  - "adventurous"
+  memories:
+  - "Sophia Adams enjoys living in 'The Enchanted Cottage' with her friends Eleanor,\
+    \ Oliver, and Henry"
+  - "She remembers the time when they all decided to decorate the living room together,\
+    \ creating a cozy and welcoming space"
+  - "Sophia Adams recalls the fun nights spent cooking and experimenting with new\
+    \ recipes in the kitchen with her friends"
+  - "She cherishes the memory of the beautiful summer evenings spent in the garden,\
+    \ laughing and enjoying each other's company"
+  - "Sophia Adams is grateful for the support and friendship she receives from her\
+    \ housemates, as they all pursue their dreams and ambitions"
+  circRhythm: "8am to 12am"
+  currentAction: "watching a movie"
+- name: "Henry Davis"
+  age: 30
+  house: "The Enchanted Cottage"
+  startSubArea: "living room"
+  jobOrSchoolPlace: null
+  traits:
+  - "friendly"
+  - "organized"
+  - "adventurous"
+  memories:
+  - "Henry Davis moved into the Enchanted Cottage with his friends Eleanor Smith,\
+    \ Oliver Johnson, and Sophia Adams"
+  - "Living with his friends has created a strong bond and a sense of community in\
+    \ the house"
+  - "Henry Davis enjoys spending time in the kitchen experimenting with different\
+    \ recipes"
+  - "He has fond memories of gardening in the beautiful garden and watching the plants\
+    \ grow"
+  - "Henry Davis cherishes the memories of late-night conversations in the cozy living\
+    \ room with his friends"
+  circRhythm: "7am to 11pm"
+  currentAction: "relaxing in the living room"

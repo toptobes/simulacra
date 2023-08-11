@@ -1,0 +1,83 @@
+- name: Largerville Public School
+  description:
+    A school where all the K-12 children go to learn, or people go to use the library for research or reading
+  category: school
+  subareas:
+    - name: classroom
+      items:
+        - name: 12 student desks
+          status: 12 empty
+        - name: teacher's desk
+          status: empty
+    - name: library
+      items:
+        - name: 2 bookshelf
+          status: 2 unoccupied
+        - name: 4 tables
+          status: 4 empty
+
+- name: Lin Family's House
+  description:
+    A modest sized house the Lin family happily resides
+  category: house
+  subareas:
+    - name: master bedroom
+      items:
+        - name: bed
+          status: occupied by both parents
+        - name: computer
+          status: unoccupied
+    - name: kid's bedroom
+      items:
+        - name: bed
+          status: empty
+        - name: desk
+          status: empty
+    - name: kitchen
+      items:
+        - name: stove
+          status: idle
+        - name: fridge
+          status: full
+    - name: bathroom
+      items:
+        - name: shower
+          status: unused
+        - name: sink
+          status: unoccupied
+    - name: living room
+      items:
+        - name: sofa
+          status: unoccupied
+        - name: television
+          status: off
+    - name: garden
+      items:
+        - name: flower bed
+          status: blooming
+        - name: garden bench
+          status: unoccupied
+
+- name: Dr. Lin's Family Practice
+  description:
+    A small, friendly local doctor's office where Dr. Lin provides medical services to the community
+  category: hospital
+  subareas:
+    - name: waiting area
+      items:
+        - name: 5 chairs
+          status: 5 unoccupied
+        - name: magazine rack
+          status: well-stocked
+    - name: reception desk
+      items:
+        - name: computer
+          status: idle
+        - name: appointment book
+          status: open
+    - name: examination room
+      items:
+        - name: examination table
+          status: empty
+        - name: medical equipment
+          status: unused

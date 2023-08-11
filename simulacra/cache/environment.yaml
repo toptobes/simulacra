@@ -1,0 +1,68 @@
+---
+- name: "Evergreen Villa"
+  subareas:
+    - name: "master bedroom"
+      items:
+        - name: "king-size bed"
+          status: "occupied by Emily and Michael"
+        - name: "dresser"
+          status: "idle"
+        - name: "walk-in closet"
+          status: "being used by Emily"
+    - name: "living room"
+      items:
+        - name: "coffee table"
+          status: "idle"
+        - name: "sofa"
+          status: "idle"
+        - name: "TV"
+          status: "being used by Daniel"
+    - name: "backyard"
+      items:
+        - name: "swimming pool"
+          status: "idle"
+        - name: "patio furniture"
+          status: "idle"
+        - name: "barbecue grill"
+          status: "idle"
+    - name: "kitchen"
+      items:
+        - name: "stove"
+          status: "being used by Olivia"
+        - name: "dining table"
+          status: "being used by all residents"
+        - name: "refrigerator"
+          status: "idle"
+  category: "A luxurious villa with spacious rooms and beautiful surroundings"
+  description: "house"
+- name: "The Enchanted Cottage"
+  subareas:
+    - name: "living room"
+      items:
+        - name: "coffee table"
+          status: "idle"
+        - name: "sofa"
+          status: "being used by all residents"
+        - name: "bookshelf"
+          status: "idle"
+    - name: "garden"
+      items: [ ]
+    - name: "kitchen"
+      items:
+        - name: "dining table"
+          status: "being used by all residents"
+        - name: "stove"
+          status: "idle"
+        - name: "refrigerator"
+          status: "idle"
+    - name: "bedroom"
+      items:
+        - name: "bed"
+          status: "being used by all residents"
+        - name: "desk"
+          status: "idle"
+        - name: "dresser"
+          status: "idle"
+  category: "A charming cottage tucked away in a magical forest, where a group of\
+    \ friends live together"
+  description: "house"
