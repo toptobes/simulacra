@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.StringJoiner;
 import java.util.concurrent.CompletableFuture;
 
-import static org.datastax.simulacra.Utils.map2list;
+import static org.datastax.simulacra.utils.Utils.map2list;
 import static org.datastax.simulacra.ai.IOExecutor.supplyAsync;
 
 public enum LocalEmbeddingService implements EmbeddingService {

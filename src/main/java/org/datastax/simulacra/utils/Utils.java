@@ -1,12 +1,12 @@
-package org.datastax.simulacra;
+package org.datastax.simulacra.utils;
 
 import com.datastax.oss.driver.api.core.cql.AsyncResultSet;
 import com.datastax.oss.driver.api.core.cql.Row;
-import com.fasterxml.jackson.core.JsonGenerator;
-import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.*;
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
+import com.fasterxml.jackson.dataformat.yaml.YAMLGenerator;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
@@ -20,14 +20,12 @@ import java.util.stream.StreamSupport;
 import static java.lang.Math.min;
 import static java.util.concurrent.CompletableFuture.completedFuture;
 import static java.util.stream.Collectors.toMap;
-import static org.datastax.simulacra.logging.HomemadeLogger.ANSI_RED;
-import static org.datastax.simulacra.logging.HomemadeLogger.log;
 
 public class Utils {
     private Utils() {}
 
     public static <K, V> Map<K, V> associateBy(Collection<V> values, Function<V, K> transformer) {
-        return values == null ? null : values.stream().collect(toMap(transformer, x -> x));
+        return values == null ? null : values.stream().collect(toMap(transformer, x -> x, (a, b) -> b));
     }
 
     public static <M extends Map<K, V>, K, V> M associateByTo(M destination, List<V> values, Function<V, K> transformer) {
@@ -38,7 +36,7 @@ public class Utils {
     }
 
     public static <K, V> Map<K, V> associateWith(List<K> keys, Function<K, V> selector) {
-        return keys == null ? null : keys.stream().collect(toMap(x -> x, selector));
+        return keys == null ? null : keys.stream().collect(toMap(x -> x, selector, (a, b) -> b));
     }
 
     public static <K, V> Map<K, List<V>> groupBy(List<V> values, Function<V, K> selector) {
@@ -67,7 +65,13 @@ public class Utils {
 
     private static class ObjectMappers {
         public static final ObjectMapper JSON = new ObjectMapper();
-        public static final ObjectMapper YAML = new ObjectMapper(new YAMLFactory());
+        public static final ObjectMapper YAML;
+
+        static {
+            var yamlFactory = new YAMLFactory();
+            yamlFactory.disable(YAMLGenerator.Feature.USE_NATIVE_OBJECT_ID);
+            YAML = new ObjectMapper(yamlFactory);
+        }
     }
 
     public static <T> T readYaml(String path, TypeReference<T> ref) {
@@ -283,88 +287,5 @@ public class Utils {
 
     public static <T> AsyncListThreader<T> asyncListProcessor(List<T> list) {
         return new AsyncListThreader<>(new ArrayList<>(list), AsyncListThreader.ErrorHandler.NOOP);
-    }
-
-    public record AsyncListThreader<T>(List<T> list, ErrorHandler onFail) {
-        public AsyncListThreader<T> onFail(ErrorHandler fn) {
-            return new AsyncListThreader<>(list, fn);
-        }
-
-        public <R> AsyncListThreader<R> pipeSync(Function<T, R> fn) {
-            return new AsyncListThreader<>(map(list, fn), onFail);
-        }
-
-        public AsyncListThreader<T> peekSync(Consumer<T> fn) {
-            list.forEach(fn);
-            return this;
-        }
-
-        public <R> AsyncListThreader<R> pipe(Function<T, CompletableFuture<R>> fn) {
-            return new AsyncListThreader<>(removeErrors(getMapped(fn)), onFail);
-        }
-
-        public <R> AsyncListThreader<T> peek(Function<T, CompletableFuture<R>> fn) {
-            var newList = zipMap(list, getMapped(fn), (o, n) -> {
-                if (n == Errored.class) {
-                    return n;
-                }
-                return o;
-            });
-
-            return new AsyncListThreader<>(removeErrors(newList), onFail);
-        }
-
-        public AsyncListThreader<T> discardIf(Predicate<T> fn) {
-            return new AsyncListThreader<>(list.stream().filter(fn.negate()).toList(), onFail);
-        }
-
-        public <R> List<R> get(Function<T, R> fn) {
-            return map(list, fn);
-        }
-
-        public List<T> get() {
-            return list;
-        }
-
-        private <R> List<?> getMapped(Function<T, CompletableFuture<R>> fn) {
-            var futures = map(list, fn);
-
-            return zipMap(list, futures, (l, f) -> {
-                try {
-                    return f.get();
-                } catch (Throwable e) {
-                    log(ANSI_RED, "Failed");
-                    e.printStackTrace();
-                    onFail.onError(e, list, l);
-                    return Errored.class;
-                }
-            });
-        }
-
-        @SuppressWarnings("unchecked")
-        private <R> List<R> removeErrors(List<?> list) {
-            return (List<R>) list.stream().filter(x -> x != Errored.class).toList();
-        }
-
-        public interface ErrorHandler {
-            void onError(Throwable error, List<?> list, Object offender);
-            ErrorHandler NOOP = (e, l, o) -> {};
-        }
-
-        private static class Errored {}
-    }
-
-    public static <A, B> Pair<A, B> cons(A a, B b) {
-        return new Pair<>(a, b);
-    }
-
-    public record Pair<A, B>(A fst, B snd) {}
-
-    public static class Map2ListSerializer extends JsonSerializer<Map<?, ?>> {
-        @Override
-        public void serialize(Map<?, ?> itemsMap, JsonGenerator jsonGenerator, SerializerProvider serializerProvider) throws IOException {
-            List<?> itemsList = new ArrayList<>(itemsMap.values());
-            jsonGenerator.writeObject(itemsList);
-        }
     }
 }

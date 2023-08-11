@@ -16,7 +16,6 @@ import org.datastax.simulacra.memorystream.MemoryStream;
 import org.datastax.simulacra.memorystream.MemoryType;
 import org.datastax.simulacra.memorystream.Plan;
 
-import java.io.PrintWriter;
 import java.time.temporal.ChronoUnit;
 import java.util.Collection;
 import java.util.List;
@@ -25,7 +24,7 @@ import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 import static java.util.concurrent.CompletableFuture.completedFuture;
-import static org.datastax.simulacra.Utils.*;
+import static org.datastax.simulacra.utils.Utils.*;
 import static org.datastax.simulacra.logging.HomemadeLogger.*;
 
 public class Agent {
@@ -46,8 +45,6 @@ public class Agent {
     private int importanceCounter = 0;
     private boolean isInConversation = false;
 
-    private final PrintWriter writer;
-
     public Agent(
         String name,
         Integer age,
@@ -67,8 +64,6 @@ public class Agent {
         this.currentAction = currentAction;
         this.circadianRhythm = circadianRhythm;
         subarea.register(this);
-
-        writer = useWriter("simulacra/logs/%s.log".formatted(normalizeName(name).replace(" ", "_")));
     }
 
     public CompletableFuture<Void> planDay() {
@@ -193,7 +188,7 @@ public class Agent {
             this.plan = new Plan(dailyPlan, hourlyPlan);
             log(this, ANSI_YELLOW, "Hourly plan: " + String.join("\n", hourlyPlan));
         }).exceptionallyCompose(e -> {
-            log(this, ANSI_RED, "Error planning rest of hour: " + e.getMessage());
+            err("Failed to create hourly plan", e);
             return planRestOfHour(context);
         });
     }
@@ -344,10 +339,6 @@ public class Agent {
                     : rePlanDay(response.reaction);
             });
         });
-    }
-
-    public void logAction() {
-        writer.println(SimClock.timeString() + ": " + currentAction);
     }
 
     @FunctionClass

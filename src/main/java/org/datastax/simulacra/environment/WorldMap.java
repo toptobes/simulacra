@@ -2,7 +2,7 @@ package org.datastax.simulacra.environment;
 
 import java.util.*;
 
-import static org.datastax.simulacra.Utils.*;
+import static org.datastax.simulacra.utils.Utils.*;
 
 public class WorldMap {
     public static final WorldMap GLOBAL = new WorldMap();
@@ -17,8 +17,12 @@ public class WorldMap {
         return areas.keySet();
     }
 
+    public int areaCount() {
+        return areas.size();
+    }
+
     public void addAreas(Collection<Area> areas) {
-        System.out.println(map(areas, Area::name));
+        System.out.println("Addding areas " + map(areas, Area::name));
         this.areas.putAll(associateBy(areas, a -> normalizeName(a.name())));
     }
 }

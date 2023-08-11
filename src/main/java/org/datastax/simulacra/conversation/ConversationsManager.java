@@ -4,13 +4,15 @@ import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-import static org.datastax.simulacra.Utils.*;
+import static org.datastax.simulacra.utils.Utils.*;
 
 @SuppressWarnings("InfiniteLoopStatement")
 public class ConversationsManager {
     private static final ExecutorService exec = Executors.newSingleThreadExecutor();
 
     public static void start() {
+        System.out.println("ConversationsManager.start");
+
         exec.submit(() -> {
             try {
                 while (true) {

@@ -12,14 +12,18 @@ import org.datastax.simulacra.environment.WorldMap;
 import org.datastax.simulacra.memorystream.AstraMemoryStream;
 import org.datastax.simulacra.memorystream.MemoryEntity;
 import org.datastax.simulacra.memorystream.MemoryType;
+import org.datastax.simulacra.utils.Pair;
 
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.Executors;
 import java.util.function.Function;
+import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 import static java.util.stream.Collectors.toMap;
-import static org.datastax.simulacra.Utils.*;
+import static org.datastax.simulacra.utils.Utils.*;
 
 public class SimFactory {
     public static String CUSTOM_AGENTS_PATH = "simulacra/config/agents.yaml";
@@ -37,17 +41,17 @@ public class SimFactory {
         var cachedAgents = agentsFromYaml(AGENTS_CACHE_PATH);
         System.out.printf("Found %d agents from generated cache%n", cachedAgents.size());
 
-        var cons = generateAgents(roughNumAgents - agents.size() - cachedAgents.size());
+        generateAgents(roughNumAgents - agents.size() - cachedAgents.size()).thenAccept(cons -> {
+            System.out.printf("Generated %d agents and %d areas%n", cons.snd().size(), cons.fst().size());
 
-        System.out.printf("Generated %d agents and %d areas%n", cons.snd().size(), cons.fst().size());
+            saveToCache(cons.fst(), ENVIRONMENT_CACHE_PATH);
+            saveToCache(cons.snd(), AGENTS_CACHE_PATH);
 
-        saveToCache(cons.fst(), ENVIRONMENT_CACHE_PATH);
-        saveToCache(cons.snd(), AGENTS_CACHE_PATH);
+            WorldMap.GLOBAL.addAreas(cons.fst());
+            var newAgents = dtos2agents(cons.snd());
 
-        WorldMap.GLOBAL.addAreas(cons.fst());
-        var newAgents = dtos2agents(cons.snd());
-
-        cat(newAgents, cachedAgents, agents).forEach(AgentRegistry::register);
+            cat(newAgents, cachedAgents, agents).forEach(AgentRegistry::register);
+        }).join();
     }
 
     @FunctionClass
@@ -69,25 +73,37 @@ public class SimFactory {
         List<SubArea> subAreas
     ) {}
 
-    private static Pair<List<Area>, List<AgentDTO>> generateAgents(int roughNumAgents) {
-        var numPlacesForEmployment = Math.max(0, roughNumAgents / 12);
-        var roughNumFamilies = Math.max(0, roughNumAgents / 3);
+    private static CompletableFuture<Pair<List<Area>, List<AgentDTO>>> generateAgents(int roughNumAgents) {
+        return CompletableFuture.supplyAsync(() -> {
+            var numPlacesForEmployment = Math.max(0, roughNumAgents / 12);
+            var roughNumFamilies = Math.max(0, roughNumAgents / 3);
 
-        var placesForEmployment = IntStream.range(0, numPlacesForEmployment)
-            .mapToObj(i -> generatePlaceOfEmployment())
-            .toList();
+            try (var executor = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors() * 2)) {
+                var placeFutures = IntStream.range(0, numPlacesForEmployment)
+                    .mapToObj(i -> CompletableFuture.supplyAsync(SimFactory::generatePlaceOfEmployment, executor))
+                    .toList();
 
-        var workersPerPlace = associateWith(map(placesForEmployment, p -> normalizeName(p.name())), p -> 0);
-        var normalizedPlaceNames = map(placesForEmployment, p -> normalizeName(p.name()));
+                var placesForEmployment = placeFutures.stream()
+                    .map(CompletableFuture::join)
+                    .collect(Collectors.toList());
 
-        var families = IntStream.range(0, roughNumFamilies)
-            .mapToObj(i -> generateAgentFamily(normalizedPlaceNames, workersPerPlace))
-            .collect(toMap(Pair::fst, Pair::snd));
+                var workersPerPlace = associateWith(map(placesForEmployment, p -> normalizeName(p.name())), p -> 0);
+                var normalizedPlaceNames = map(placesForEmployment, p -> normalizeName(p.name()));
 
-        var areas = cat(families.keySet(), placesForEmployment);
-        var agents = flatten(families.values());
+                var familyFutures = IntStream.range(0, roughNumFamilies)
+                    .mapToObj(i -> CompletableFuture.supplyAsync(() -> generateAgentFamily(normalizedPlaceNames, workersPerPlace), executor))
+                    .toList();
 
-        return cons(areas, agents);
+                var families = familyFutures.stream()
+                    .map(CompletableFuture::join)
+                    .collect(toMap(Pair::fst, Pair::snd));
+
+                var areas = cat(families.keySet(), placesForEmployment);
+                var agents = flatten(families.values());
+
+                return Pair.cons(areas, agents);
+            }
+        });
     }
 
     private static Area generatePlaceOfEmployment() {
@@ -140,6 +156,7 @@ public class SimFactory {
                     prefer businesses on the smaller size (5-10 employees max, if not less).
                     
                     Be realistic and normal, not dramatic.
+                    The business names should be somewhat unique, I don't want duplicates when a lot are generated.
 
                     Follow the result format strictly w/ no more, no less detail.
                 """;
@@ -161,7 +178,7 @@ public class SimFactory {
                 Use generic item statuses like "idle", "unused" or "being used by two people" or something.
                 
                 Residents must have full names. Use more creative names than just the super common ones like "smith".
-                House name should be quite creative and unique too.
+                House name should be quite creative and unique too. I don't want duplicate names when a lot are generated.
                 
                 Rough example (add more subareas/items in yours IF APPROPRIATE):
                 {
@@ -260,7 +277,7 @@ public class SimFactory {
                         })
                         .get();
 
-                    return cons(area, agents);
+                    return Pair.cons(area, agents);
                 }).join();
         } catch (Exception e) {
             e.printStackTrace();

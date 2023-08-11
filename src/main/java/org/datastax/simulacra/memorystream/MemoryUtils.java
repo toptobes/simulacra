@@ -9,8 +9,8 @@ import java.util.concurrent.CompletableFuture;
 
 import static java.lang.Math.min;
 import static java.util.Collections.reverseOrder;
-import static org.datastax.simulacra.Utils.map;
-import static org.datastax.simulacra.Utils.zipMap;
+import static org.datastax.simulacra.utils.Utils.map;
+import static org.datastax.simulacra.utils.Utils.zipMap;
 
 public class MemoryUtils {
     public static CompletableFuture<List<List<Float>>> getEmbeddings(List<String> queries) {

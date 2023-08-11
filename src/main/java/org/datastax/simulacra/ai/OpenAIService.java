@@ -37,10 +37,10 @@ import java.util.function.Function;
 import static com.theokanning.openai.service.OpenAiService.*;
 import static java.util.Collections.singletonList;
 import static java.util.stream.Collectors.toMap;
-import static org.datastax.simulacra.logging.HomemadeLogger.ANSI_RED;
-import static org.datastax.simulacra.logging.HomemadeLogger.log;
-import static org.datastax.simulacra.Utils.*;
+import static org.datastax.simulacra.utils.Utils.*;
 import static org.datastax.simulacra.ai.IOExecutor.supplyAsync;
+import static org.datastax.simulacra.logging.HomemadeLogger.err;
+import static org.datastax.simulacra.logging.HomemadeLogger.log;
 
 public enum OpenAIService implements ChatService, EmbeddingService, FunctionService {
     INSTANCE;
@@ -108,7 +108,7 @@ public enum OpenAIService implements ChatService, EmbeddingService, FunctionServ
             .build();
 
         var fnList = singletonList(function);
-        var fnExecutor = new FunctionExecutor(fnList);
+        var fnExecutor = new FunctionExecutor(fnList, mapper);
 
         var fnCall = query(text, builder -> {
             var request = builder
@@ -196,7 +196,7 @@ public enum OpenAIService implements ChatService, EmbeddingService, FunctionServ
                     .get(0)
                     .getMessage();
             } catch (Exception e) {
-                log(ANSI_RED, "An error occurred: " + e.getMessage());
+                err("Failed to make chat completions request", e);
             } finally {
                 retries++;
             }

@@ -2,13 +2,11 @@ package org.datastax.simulacra.moment;
 
 import org.datastax.simulacra.SimClock;
 import org.datastax.simulacra.agents.Agent;
-import org.datastax.simulacra.agents.AgentRegistry;
 import org.datastax.simulacra.logging.HomemadeLogger;
 
 import java.util.List;
 
-import static org.datastax.simulacra.Utils.asyncListProcessor;
-import static org.datastax.simulacra.Utils.getRootCause;
+import static org.datastax.simulacra.utils.Utils.asyncListProcessor;
 import static org.datastax.simulacra.logging.HomemadeLogger.*;
 
 public enum ReactiveMoment implements Moment {
@@ -25,8 +23,10 @@ public enum ReactiveMoment implements Moment {
 
         asyncListProcessor(agents)
             .onFail((error, list, offender) -> {
+                error.printStackTrace();
+
                 if (offender instanceof Agent agent) {
-                    log(ANSI_RED, "#ERR (for " + agent.getName() + "): " + getRootCause(error).getMessage());
+                    err("ReactiveMoment.elapse had a whoopsie", error);
                     agent.setCurrentAction(agent.getPlan().planForTheHour().get(SimClock.time().getHour() / SimClock.TIME_GRANULARITY));
                 }
             })
@@ -37,7 +37,6 @@ public enum ReactiveMoment implements Moment {
             .peek(Agent::planPlace)
             .peek(Agent::reflect);
 
-        agents.forEach(Agent::logAction);
         HomemadeLogger.logActions(agents);
     }
 }

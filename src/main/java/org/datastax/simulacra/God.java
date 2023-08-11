@@ -7,23 +7,31 @@ import org.datastax.simulacra.conversation.ConversationsRegistry;
 import org.datastax.simulacra.db.CqlSessionManager;
 import org.datastax.simulacra.environment.WorldMap;
 
+import java.time.format.DateTimeFormatter;
 import java.util.*;
 import java.util.function.Function;
 
 import static java.lang.Integer.parseInt;
-import static org.datastax.simulacra.Utils.*;
+import static org.datastax.simulacra.utils.Utils.*;
 
 public class God {
+    private God() {}
+
     private static final Scanner scanner = new Scanner(System.in);
     private static final CqlSession session = CqlSessionManager.getSession();
 
+    /**
+     * Commands that will be executed at the end of the current SimClock loop so as not to interfere with the current
+     * state of the simulation. (e.g. modifying an item's status)
+     */
     private static final List<Runnable> will = Collections.synchronizedList(new ArrayList<>());
 
     private static final LinkedHashMap<String, Runnable> commands = new LinkedHashMap<>() {{
-        put("modify an item", God::modifyItem);
+        put("modify an item's status", God::modifyItem);
         put("dump agent locations", God::dumpLocations);
         put("dump current conversations", God::dumpConversations);
         put("make db query", God::makeDbQuery);
+        put("dump actions for some agent", God::dumpActionsForAgent);
         put("exit", () -> System.out.println("Universe> Goodbye!"));
     }};
 
@@ -142,6 +150,30 @@ public class God {
         } catch (Exception e) {
             System.out.println("\nUniverse> " + e.getMessage());
         }
+    }
+
+    @SuppressWarnings("DataFlowIssue")
+    private static void dumpActionsForAgent() {
+        System.out.println("\nUniverse> Which agent? (or 'any')");
+        System.out.print("God> ");
+
+        var agentName = scanner.nextLine();
+        if (agentName.equalsIgnoreCase("nvm")) {
+            return;
+        }
+
+        if (agentName.equalsIgnoreCase("any")) {
+            agentName = AgentRegistry.random().getName();
+        }
+
+        var actions = session.execute("SELECT (action_time, action) FROM actions WHERE agent_name = ? AND run_time = ?", agentName, SimClock.RUN_START_TIME);
+        var formatter = DateTimeFormatter.ofPattern("HH:mm");
+
+        actions.forEach(row -> {
+            var actionTime = row.getInstant("action_time");
+            var action = row.getString("action");
+            System.out.println("[" + formatter.format(actionTime) + "] " + action);
+        });
     }
 
     private static <T> T getOrSuggest(Function<String, T> fn, Collection<String> options) {

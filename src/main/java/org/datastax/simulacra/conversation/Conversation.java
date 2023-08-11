@@ -3,7 +3,7 @@ package org.datastax.simulacra.conversation;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyDescription;
 import org.datastax.simulacra.SimClock;
-import org.datastax.simulacra.Utils;
+import org.datastax.simulacra.utils.Utils;
 import org.datastax.simulacra.agents.Agent;
 import org.datastax.simulacra.ai.ChatService;
 import org.datastax.simulacra.ai.FunctionClass;
@@ -16,8 +16,8 @@ import java.util.function.Supplier;
 import java.util.stream.Stream;
 
 import static org.datastax.simulacra.logging.HomemadeLogger.*;
-import static org.datastax.simulacra.Utils.awaitAll;
-import static org.datastax.simulacra.Utils.useWriter;
+import static org.datastax.simulacra.utils.Utils.awaitAll;
+import static org.datastax.simulacra.utils.Utils.useWriter;
 
 public class Conversation {
     private static final PrintWriter writer = useWriter("simulacra/logs/_conversations.log");

@@ -3,19 +3,14 @@ package org.datastax.simulacra.environment;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.fasterxml.jackson.core.JsonParser;
-import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.DeserializationContext;
-import com.fasterxml.jackson.databind.JsonDeserializer;
-import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import org.datastax.simulacra.agents.Agent;
+import org.datastax.simulacra.utils.Map2ListSerializer;
 
-import java.io.IOException;
 import java.util.*;
 
 import static java.util.stream.Collectors.toSet;
-import static org.datastax.simulacra.Utils.*;
+import static org.datastax.simulacra.utils.Utils.*;
 
 public class SubArea {
     @JsonProperty

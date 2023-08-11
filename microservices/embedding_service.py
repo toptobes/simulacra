@@ -25,7 +25,6 @@ def embed():
     sentences = request.json['sentences']
 
     encoded_input = tokenizer(sentences, padding=True, truncation=True, return_tensors='pt')
-
     encoded_input = { key: tensor.to(device) for key, tensor in encoded_input.items() }
 
     with torch.no_grad():

@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-import static org.datastax.simulacra.Utils.groupBy;
+import static org.datastax.simulacra.utils.Utils.groupBy;
 
 public class AgentRegistry {
-    public static final List<Agent> agents = new ArrayList<>();
+    private static final List<Agent> agents = new ArrayList<>();
 
     public static synchronized void register(Agent agent) {
         agents.add(agent);
@@ -15,5 +15,13 @@ public class AgentRegistry {
 
     public static synchronized Collection<List<Agent>> chunkedBySubarea() {
         return groupBy(agents, Agent::getSubarea).values();
+    }
+
+    public static synchronized Agent random() {
+        return agents.get((int) (Math.random() * agents.size()));
+    }
+
+    public static synchronized int agentCount() {
+        return agents.size();
     }
 }

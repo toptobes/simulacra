@@ -1,4 +1,3 @@
----
 - name: "Emily Hunter"
   age: 32
   house: "Evergreen Villa"
@@ -171,3 +170,1968 @@
     \ room with his friends"
   circRhythm: "7am to 11pm"
   currentAction: "relaxing in the living room"
+- name: "William Johnson"
+  age: 40
+  house: "Rosewood Manor"
+  startSubArea: "master bedroom"
+  jobOrSchoolPlace: ""
+  traits:
+  - "loving"
+  - "responsible"
+  - "dedicated"
+  memories:
+  - "William Johnson is happily married to Emily Johnson and they have two beautiful\
+    \ children, Oliver and Charlotte."
+  - "They all live together in their cozy home, Rosewood Manor, which is filled with\
+    \ love and laughter."
+  - "William Johnson remembers the joy and excitement when they first moved into their\
+    \ dream home and started a new chapter of their lives as a family."
+  - "He cherishes the memories of family gatherings and special celebrations they\
+    \ have had in their spacious living room, creating lasting bonds and unforgettable\
+    \ moments."
+  - "William Johnson takes pride in providing a nurturing environment for his children,\
+    \ and he fondly recalls the times spent in the garden, teaching them about nature\
+    \ and watching them grow."
+  circRhythm: "7am to 10pm"
+  currentAction: "relaxing with family"
+- name: "Emily Johnson"
+  age: 32
+  house: "Rosewood Manor"
+  startSubArea: "master bedroom"
+  jobOrSchoolPlace: null
+  traits:
+  - "kind"
+  - "loving"
+  - "organized"
+  memories:
+  - "Living in Rosewood Manor with my loving husband and two beautiful children"
+  - "Working as a graphic designer at a local design agency"
+  - "Creating beautiful memories with my family during our annual summer vacations"
+  - "Spending quality time in the kitchen, experimenting with new recipes for my family"
+  - "Enjoying peaceful moments in our garden, surrounded by blooming flowers and the\
+    \ sound of birds"
+  circRhythm: "6am to 10pm"
+  currentAction: "sleeping"
+- name: "Oliver Johnson"
+  age: 12
+  house: "Rosewood Manor"
+  startSubArea: "master bedroom"
+  jobOrSchoolPlace: null
+  traits:
+  - "kind"
+  - "responsible"
+  - "curious"
+  memories:
+  - "Oliver Johnson grew up in a loving and supportive family in Rosewood Manor."
+  - "He remembers his parents, William and Emily Johnson, teaching him important life\
+    \ values."
+  - "Oliver Johnson has fond memories of playing with his younger sister, Charlotte,\
+    \ in the garden."
+  - "He recalls helping his parents in the kitchen and learning to cook delicious\
+    \ meals."
+  circRhythm: "7am to 9pm"
+  currentAction: "studying"
+- name: "Charlotte Johnson"
+  age: 30
+  house: "Rosewood Manor"
+  startSubArea: "master bedroom"
+  jobOrSchoolPlace: null
+  traits:
+  - "kind"
+  - "hardworking"
+  - "loving"
+  memories:
+  - "I remember the warm and cozy feeling of our master bedroom at Rosewood Manor.\
+    \ It's the place where I feel safe and at peace."
+  - "I cherish the memories of playing with my younger brother Oliver in the children's\
+    \ bedroom. We always had so much fun together."
+  - "The living room at Rosewood Manor holds so many memories of family gatherings\
+    \ and movie nights. It's where we bond and create lasting moments."
+  - "Cooking in the kitchen brings back memories of laughter and delicious meals shared\
+    \ with my family. It's a place filled with love and joy."
+  - "The garden at Rosewood Manor is my sanctuary. I remember spending countless hours\
+    \ there, surrounded by nature and tranquility."
+  circRhythm: "7am to 11pm"
+  currentAction: "relaxing in the master bedroom"
+- name: "Michael Davis"
+  age: 38
+  house: "Rosewood Cottage"
+  startSubArea: "living room"
+  jobOrSchoolPlace: ""
+  traits:
+  - "kind"
+  - "hardworking"
+  - "loving"
+  memories:
+  - "Michael Davis is a dedicated and loving father to his son Oliver Davis."
+  - "He is a loving and caring husband to Lily Davis."
+  - "Michael Davis cherishes the memories of family dinners in the cozy kitchen of\
+    \ Rosewood Cottage."
+  - "He remembers the joy of watching Oliver take his first steps in the living room\
+    \ of their home."
+  - "Michael Davis is grateful for the comfortable and peaceful master bedroom that\
+    \ provides a restful sleep."
+  circRhythm: "7am to 11pm"
+  currentAction: ""
+- name: "Lily Davis"
+  age: 32
+  house: "Rosewood Cottage"
+  startSubArea: "living room"
+  jobOrSchoolPlace: null
+  traits:
+  - "kind"
+  - "loving"
+  - "organized"
+  memories:
+  - "Lily Davis and Michael Davis got married in the living room of their cozy Rosewood\
+    \ Cottage."
+  - "Oliver Davis took his first steps in the living room of our beloved home."
+  - "Lily Davis loves cooking delicious meals for her family in the kitchen of Rosewood\
+    \ Cottage."
+  - "Every night, Lily Davis reads a bedtime story to Oliver Davis in his cozy bedroom."
+  circRhythm: "7am to 11pm"
+  currentAction: "relaxing"
+- name: "Oliver Davis"
+  age: 12
+  house: "Rosewood Cottage"
+  startSubArea: "child's bedroom"
+  jobOrSchoolPlace: null
+  traits:
+  - "energetic"
+  - "creative"
+  - "curious"
+  memories:
+  - "Oliver Davis loves to explore the garden and discover new plants and insects"
+  - "He has fond memories of family game nights in the living room, where they would\
+    \ laugh and have fun together"
+  - "Oliver Davis enjoys helping his parents in the kitchen and learning new recipes"
+  - "He has a secret hiding spot under his bed where he keeps his collection of handmade\
+    \ crafts"
+  circRhythm: "7am to 9pm"
+  currentAction: "playing"
+- name: "Oliver Woods"
+  age: 28
+  house: "Riverside Retreat"
+  startSubArea: "living room"
+  jobOrSchoolPlace: ""
+  traits:
+  - "friendly"
+  - "easygoing"
+  - "adventurous"
+  memories:
+  - "Oliver Woods and his friends Sophia Dawson, Emma Peterson, and Liam Bennett decided\
+    \ to live together in the Riverside Retreat house"
+  - "They enjoy spending time in the living room, chatting and watching movies together"
+  - "Oliver Woods often cooks delicious meals for his friends in the kitchen"
+  - "They have memorable moments in the backyard, playing games and having barbecues"
+  - "Oliver Woods cherishes the close bond he shares with his housemates, as they\
+    \ support and uplift each other"
+  circRhythm: "7am to 11pm"
+  currentAction: "relaxing"
+- name: "Sophia Dawson"
+  age: 25
+  house: "Riverside Retreat"
+  startSubArea: "living room"
+  jobOrSchoolPlace: ""
+  traits:
+  - "friendly"
+  - "organized"
+  - "adventurous"
+  memories:
+  - "Sophia Dawson enjoys the cozy atmosphere and natural surroundings of Riverside\
+    \ Retreat"
+  - "She remembers the day they all moved in together, excited about the new chapter\
+    \ in their lives"
+  - "Living with Oliver, Emma, and Liam has strengthened their friendship and created\
+    \ many cherished memories"
+  - "Sophia Dawson loves to cook and often experiments with new recipes in the kitchen"
+  - "She remembers the time when they had a fun barbecue party in the backyard, enjoying\
+    \ delicious food and laughter"
+  circRhythm: "8am to 12am"
+  currentAction: "relaxing on the couch"
+- name: "Emma Peterson"
+  age: 25
+  house: "Riverside Retreat"
+  startSubArea: "living room"
+  jobOrSchoolPlace: null
+  traits:
+  - "friendly"
+  - "organized"
+  - "adventurous"
+  memories:
+  - "Emma Peterson, Oliver Woods, Sophia Dawson, and Liam Bennett are close friends\
+    \ who decided to live together in the Riverside Retreat house"
+  - "They enjoy spending time together in the living room, sharing stories and laughter"
+  - "Emma Peterson has fond memories of cooking together with her housemates in the\
+    \ kitchen"
+  - "In the backyard, they often have barbeques and play games, creating fun memories"
+  circRhythm: "8am to 12am"
+  currentAction: "reading a book"
+- name: "Liam Bennett"
+  age: 28
+  house: "Riverside Retreat"
+  startSubArea: "living room"
+  jobOrSchoolPlace: null
+  traits:
+  - "friendly"
+  - "adventurous"
+  - "creative"
+  memories:
+  - "Liam Bennett moved into 'Riverside Retreat' with his close friends Oliver Woods,\
+    \ Sophia Dawson, and Emma Peterson. They all wanted to live together and support\
+    \ each other in their personal and professional lives."
+  - "Living at 'Riverside Retreat' has provided Liam with a comfortable and cozy environment\
+    \ to relax and unwind after a long day."
+  - "Liam values the strong bonds he has formed with Oliver, Sophia, and Emma through\
+    \ their shared living experience. They have become like a second family to him."
+  - "One of Liam's fondest memories at 'Riverside Retreat' is when they hosted a housewarming\
+    \ party and invited all their friends and neighbors. It was a joyful and lively\
+    \ gathering that made Liam feel grateful for his home and loved ones."
+  circRhythm: "8am to 12am"
+  currentAction: "chatting with friends"
+- name: "Alexander Westwood"
+  age: 40
+  house: "Oasis Villa"
+  startSubArea: "master bedroom"
+  jobOrSchoolPlace: null
+  traits:
+  - "organized"
+  - "fun-loving"
+  - "responsible"
+  memories:
+  - "Alexander Westwood is happily married to Olivia Westwood and they have two daughters,\
+    \ Charlotte and Emma."
+  - "The Westwood family enjoys spending quality time together in the living room,\
+    \ playing board games and watching movies."
+  - "Alexander has fond memories of cooking delicious meals for his family in the\
+    \ kitchen of Oasis Villa."
+  - "Every weekend, the Westwood family gathers in the garden for a barbecue and enjoys\
+    \ the beautiful outdoor space."
+  circRhythm: "6am to 10pm"
+  currentAction: "relaxing in the living room"
+- name: "Olivia Westwood"
+  age: 35
+  house: "Oasis Villa"
+  startSubArea: "master bedroom"
+  jobOrSchoolPlace: null
+  traits:
+  - "kind"
+  - "hardworking"
+  - "loving"
+  memories:
+  - "Olivia Westwood is happily married to Alexander Westwood"
+  - "Olivia Westwood enjoys spending time with her daughters, Charlotte and Emma"
+  - "Olivia Westwood values a clean and organized home"
+  - "Olivia Westwood works as a graphic designer from her home office"
+  circRhythm: "7am to 11pm"
+  currentAction: "sleeping"
+- name: "Charlotte Westwood"
+  age: 18
+  house: "Oasis Villa"
+  startSubArea: "master bedroom"
+  jobOrSchoolPlace: ""
+  traits:
+  - "kind"
+  - "creative"
+  - "responsible"
+  memories:
+  - "Charlotte Westwood grew up in a loving home with her parents, Alexander and Olivia\
+    \ Westwood, and her younger sister Emma Westwood"
+  - "She has fond memories of playing in the garden with her family and enjoying picnics\
+    \ on sunny days"
+  - "Charlotte Westwood's parents always encouraged her creativity and she has many\
+    \ happy memories of painting and drawing with them in the living room"
+  - "She remembers her parents teaching her the value of responsibility and helping\
+    \ her with her schoolwork in the cozy kitchen"
+  circRhythm: "7am to 11pm"
+  currentAction: ""
+- name: "Emma Westwood"
+  age: 22
+  house: "Oasis Villa"
+  startSubArea: "master bedroom"
+  jobOrSchoolPlace: ""
+  traits:
+  - "creative"
+  - "compassionate"
+  - "responsible"
+  memories:
+  - "Emma Westwood grew up in a loving household with her parents, Alexander and Olivia\
+    \ Westwood, and her sister, Charlotte Westwood."
+  - "She has fond memories of family game nights in the living room, where they would\
+    \ laugh and bond over their favorite board games."
+  - "Emma Westwood cherishes the moments spent in the kitchen, baking delicious treats\
+    \ with her mother. They would experiment with new recipes and create sweet memories\
+    \ together."
+  - "She has spent countless hours in the garden, nurturing plants and watching them\
+    \ bloom. The garden has always been a peaceful sanctuary for Emma Westwood."
+  circRhythm: "7am to 11pm"
+  currentAction: ""
+- name: "Sarah Romero"
+  age: 30
+  house: "Dreamer's Abode"
+  startSubArea: "living room"
+  jobOrSchoolPlace: ""
+  traits:
+  - "creative"
+  - "passionate"
+  - "free-spirited"
+  memories:
+  - "Sarah Romero and Michael Jones are a creative couple who enjoy painting, writing,\
+    \ and playing music together."
+  - "They both work from home as freelance artists and share their passion with the\
+    \ world through their unique creations."
+  - "Sarah Romero and Michael Jones live in the house called 'Dreamer's Abode', which\
+    \ contains the subareas [living room, kitchen, bedroom, studio, garden]."
+  - "Sarah Romero and Michael Jones cherish their home as a space that inspires their\
+    \ artistic endeavors."
+  - "The memories of creating beautiful art together in the living room are particularly\
+    \ special to Sarah Romero."
+  circRhythm: "8am to 12am"
+  currentAction: ""
+- name: "Michael Jones"
+  age: 30
+  house: "Dreamer's Abode"
+  startSubArea: "living room"
+  jobOrSchoolPlace: ""
+  traits:
+  - "creative"
+  - "passionate"
+  - "freelancer"
+  memories:
+  - "Michael Jones and Sarah Romero are a creative couple who enjoy painting, writing,\
+    \ and playing music together"
+  - "They work from home as freelance artists and share their passion with the world\
+    \ through their unique creations"
+  - "Living in 'Dreamer's Abode', Michael and Sarah find inspiration from the peaceful\
+    \ surroundings of their home"
+  - "Every morning, Michael starts his day with a cup of coffee in the cozy living\
+    \ room while Sarah practices her guitar"
+  - "Their harmonious collaboration sparks new ideas and brings joy to their artistic\
+    \ journey"
+  circRhythm: "7am to 11pm"
+  currentAction: ""
+- name: "Daniel Smithson"
+  age: 35
+  house: "Violet Manor"
+  startSubArea: "master bedroom"
+  jobOrSchoolPlace: ""
+  traits:
+  - "kind"
+  - "hardworking"
+  - "loving"
+  memories:
+  - "Daniel Smithson is a loving husband and father."
+  - "He enjoys spending quality time with his wife and daughter."
+  - "Daniel believes in maintaining a clean and organized home environment."
+  - "He takes pride in his work and strives for excellence in his profession."
+  circRhythm: "7am to 11pm"
+  currentAction: "sleeping"
+- name: "Emily Smithson"
+  age: 35
+  house: "Violet Manor"
+  startSubArea: "master bedroom"
+  jobOrSchoolPlace: ""
+  traits:
+  - "kind"
+  - "hardworking"
+  - "loving"
+  memories:
+  - "Emily Smithson is married to Daniel Smithson and they have a daughter named Sophia\
+    \ Smithson"
+  - "She is grateful for the cozy atmosphere in their home, Violet Manor"
+  - "Emily often spends time in the kitchen preparing delicious meals for her family"
+  - "She cherishes the memories of family gatherings in the living room, filled with\
+    \ laughter and joy"
+  - "Emily enjoys the peacefulness of the backyard, where she can relax and unwind"
+  circRhythm: "7am to 11pm"
+  currentAction: "sleeping"
+- name: "Sophia Smithson"
+  age: 10
+  house: "Violet Manor"
+  startSubArea: "master bedroom"
+  jobOrSchoolPlace: ""
+  traits: []
+  memories:
+  - "Sophia Smithson lives in Violet Manor with her parents, Daniel Smithson and Emily\
+    \ Smithson."
+  - "She loves spending time with her family in the living room, watching movies and\
+    \ playing games together."
+  - "Sophia Smithson cherishes the memories of baking cookies with her mom in the\
+    \ kitchen."
+  - "She enjoys playing in the backyard, especially when her dad joins her for a game\
+    \ of catch."
+  circRhythm: ""
+  currentAction: ""
+- name: "Richard Smith"
+  age: 40
+  house: "Crimson Villa"
+  startSubArea: "master bedroom"
+  jobOrSchoolPlace: ""
+  traits:
+  - "honest"
+  - "responsible"
+  - "fun-loving"
+  memories:
+  - "Richard Smith and Emma Smith moved into Crimson Villa when they got married"
+  - "Richard is a dedicated father who loves spending time with his children"
+  - "Richard Smith enjoys cooking and experimenting with new recipes in the kitchen"
+  - "Richard Smith and Emma Smith cherish the memories of family gatherings in the\
+    \ living room"
+  - "Richard Smith is grateful for the beautiful backyard, where the family often\
+    \ enjoys outdoor activities"
+  circRhythm: "6am to 10pm"
+  currentAction: "relaxing"
+- name: "Emma Smith"
+  age: 35
+  house: "Crimson Villa"
+  startSubArea: "master bedroom"
+  jobOrSchoolPlace: ""
+  traits:
+  - "loving"
+  - "caring"
+  - "organized"
+  memories:
+  - "Emma Smith is happily married to Richard Smith and they have two wonderful children,\
+    \ Oliver and Sophia."
+  - "She remembers the time when they first moved into Crimson Villa and how excited\
+    \ they were to create a loving home for their family."
+  - "Emma Smith cherishes the memories of family dinners in the kitchen, where they\
+    \ would share stories and laugh together."
+  - "She also remembers the cozy evenings spent in the living room, cuddled up with\
+    \ her family, watching their favorite movies."
+  - "Emma Smith takes pride in keeping the house organized and ensuring that each\
+    \ family member has their own space to relax and unwind."
+  circRhythm: "7am to 11pm"
+  currentAction: "sleeping"
+- name: "Oliver Smith"
+  age: 10
+  house: "Crimson Villa"
+  startSubArea: "master bedroom"
+  jobOrSchoolPlace: null
+  traits:
+  - "curious"
+  - "energetic"
+  - "friendly"
+  memories:
+  - "Oliver Smith loves living with his family in the cozy Crimson Villa"
+  - "He enjoys spending time with his parents, Richard Smith and Emma Smith"
+  - "Oliver Smith and his sister, Sophia Smith, have fun playing together in the backyard"
+  - "He has fond memories of family game nights in the living room"
+  - "Oliver Smith dreams of becoming an explorer and discovering new places"
+  circRhythm: "7am to 9pm"
+  currentAction: "playing with toys"
+- name: "Sophia Smith"
+  age: 30
+  house: "Crimson Villa"
+  startSubArea: "master bedroom"
+  jobOrSchoolPlace: null
+  traits:
+  - "caring"
+  - "responsible"
+  - "creative"
+  memories:
+  - "Sophia Smith grew up in a loving household with her parents, Richard Smith and\
+    \ Emma Smith, and her brother, Oliver Smith"
+  - "She remembers the family trips they took to the beach every summer, playing in\
+    \ the sand and building sandcastles together"
+  - "Sophia Smith cherishes the memories of baking cookies with her mother in the\
+    \ kitchen on lazy Sunday afternoons"
+  - "She remembers the joyous moments of laughter and board games with her family\
+    \ in the cozy living room"
+  circRhythm: "6am to 10pm"
+  currentAction: "working on a painting"
+- name: "Oliver Valentine"
+  age: 35
+  house: "Fantasia Villa"
+  startSubArea: "master bedroom"
+  jobOrSchoolPlace: null
+  traits:
+  - "kind"
+  - "hardworking"
+  - "loving"
+  memories:
+  - "Oliver Valentine loves his family very much"
+  - "Oliver Valentine and Isabella Moon are a loving couple"
+  - "Sophia Rose brings joy and laughter to the family"
+  - "Oliver Valentine cherishes the memories they make together"
+  circRhythm: "7am to 11pm"
+  currentAction: "sleeping"
+- name: "Isabella Moon"
+  age: 32
+  house: "Fantasia Villa"
+  startSubArea: "master bedroom"
+  jobOrSchoolPlace: ""
+  traits:
+  - "organized"
+  - "creative"
+  - "loving"
+  memories:
+  - "Isabella Moon and Oliver Valentine bought Fantasia Villa, their dream home, and\
+    \ turned it into a cozy and vibrant space for their family."
+  - "Isabella Moon enjoys spending time in the living room with her family, indulging\
+    \ in laughter and creating beautiful memories together."
+  - "Isabella Moon is a talented cook and loves experimenting with new recipes in\
+    \ the kitchen, filling the house with delicious aromas."
+  - "Isabella Moon takes great pride in their garden, where she cultivates a variety\
+    \ of flowers, creating a tranquil and serene oasis for her family."
+  circRhythm: "7am to 11pm"
+  currentAction: "relaxing in the master bedroom"
+- name: "Sophia Rose"
+  age: 10
+  house: "Fantasia Villa"
+  startSubArea: "master bedroom"
+  jobOrSchoolPlace: ""
+  traits: []
+  memories:
+  - "Sophia Rose lives with her parents, Oliver Valentine and Isabella Moon, in the\
+    \ beautiful house called Fantasia Villa."
+  - "She has fond memories of playing in the garden with her family during sunny weekends."
+  - "Sophia Rose enjoys spending time in the cozy living room, where they gather to\
+    \ watch movies and play board games as a family."
+  - "She remembers helping her parents in the kitchen, learning to bake cookies and\
+    \ create delicious meals together."
+  - "Sophia Rose loves the strong bond she shares with her parents and cherishes the\
+    \ loving and nurturing environment they provide."
+  circRhythm: ""
+  currentAction: ""
+- name: "Luna Moonstone"
+  age: 28
+  house: "The Enchanted Manor"
+  startSubArea: "Master Suite"
+  jobOrSchoolPlace: ""
+  traits:
+  - "adventurous"
+  - "creative"
+  - "free-spirited"
+  memories:
+  - "Luna Moonstone, Aiden Hartwell, and Daisy Woodford embarked on an enchanting\
+    \ living experience together at The Enchanted Manor"
+  - "Living in The Enchanted Manor feels like living in a magical realm"
+  - "Luna Moonstone loves her cozy bedroom in the Master Suite, with its soft, flowing\
+    \ curtains and dreamy moonlight"
+  - "Luna Moonstone cherishes the memories of late-night movie marathons with Aiden\
+    \ and Daisy in the Cosy Living Room"
+  - "The Enchanted Garden is Luna Moonstone's sanctuary, where she spends hours painting\
+    \ and connecting with nature"
+  circRhythm: "9am to 1am"
+  currentAction: "painting in the Enchanted Garden"
+- name: "Aiden Hartwell"
+  age: 30
+  house: "The Enchanted Manor"
+  startSubArea: "Master Suite"
+  jobOrSchoolPlace: null
+  traits:
+  - "adventurous"
+  - "charming"
+  - "creative"
+  memories:
+  - "Aiden Hartwell and his close friends Luna Moonstone and Daisy Woodford decided\
+    \ to embark on an enchanting living experience together"
+  - "Living in 'The Enchanted Manor' with Luna and Daisy has created many unforgettable\
+    \ memories"
+  - "Aiden Hartwell cherishes the cozy and magical atmosphere of the 'Master Suite'\
+    \ where he started his enchanted living journey"
+  - "The 'Cosy Living Room' is the heart of their home, where Aiden, Luna, and Daisy\
+    \ spend quality time together, sharing stories and laughter"
+  - "Aiden Hartwell finds solace and inspiration in the serene and enchanting 'Enchanted\
+    \ Garden'"
+  circRhythm: "7am to 10pm"
+  currentAction: "relaxing"
+- name: "Daisy Woodford"
+  age: 28
+  house: "The Enchanted Manor"
+  startSubArea: "Master Suite"
+  jobOrSchoolPlace: null
+  traits:
+  - "adventurous"
+  - "creative"
+  - "optimistic"
+  memories:
+  - "Living in The Enchanted Manor with Luna Moonstone and Aiden Hartwell has been\
+    \ a dream come true. We have created our own little haven filled with friendship,\
+    \ magic, and love."
+  - "I remember the day we found this enchanting house. As soon as we stepped foot\
+    \ inside, we knew it was meant for us. The Master Suite became my sanctuary, a\
+    \ place where I can escape and let my imagination run wild."
+  - "The Cosy Living Room is where we gather every evening, sharing stories, laughter,\
+    \ and dreams. It's a space filled with warmth and comfort, always welcoming us\
+    \ with open arms after a long day."
+  - "The Enchanted Garden holds a special place in my heart. It's where I find inspiration\
+    \ for my artwork and where I go to reconnect with nature. The blooming flowers\
+    \ and the soothing sounds of the fountain bring me peace and serenity."
+  - "One of my fondest memories is the day we all decided to take a leap of faith\
+    \ and embark on this magical living experience together. We knew that with our\
+    \ bond and determination, anything is possible."
+  circRhythm: "7am to 10pm"
+  currentAction: "painting in the Master Suite"
+- name: "James Bliss"
+  age: 40
+  house: "The Blissful Haven"
+  startSubArea: "living room"
+  jobOrSchoolPlace: null
+  traits:
+  - "loving"
+  - "caring"
+  - "responsible"
+  memories:
+  - "James Bliss and Elizabeth Bliss bought 'The Blissful Haven' house together to\
+    \ create a loving home for their children"
+  - "James Bliss cherishes the memories of family dinners in the kitchen, where they\
+    \ share stories and laughter"
+  - "James Bliss fondly remembers tucking Emily Bliss and Oliver Bliss into bed every\
+    \ night in their cozy children's bedroom"
+  - "James Bliss works from home as a software developer, crafting innovative solutions\
+    \ for his clients"
+  circRhythm: "7am to 11pm"
+  currentAction: "watching TV in the living room"
+- name: "Elizabeth Bliss"
+  age: 35
+  house: "The Blissful Haven"
+  startSubArea: "living room"
+  jobOrSchoolPlace: ""
+  traits:
+  - "loving"
+  - "caring"
+  - "organized"
+  memories:
+  - "Elizabeth Bliss and James Bliss are a loving couple living in The Blissful Haven"
+  - "Emily Bliss and Oliver Bliss are their children"
+  - "Elizabeth Bliss takes pride in keeping the house organized and tidy"
+  - "She loves spending time with her family and creating memories together"
+  circRhythm: "7am to 10pm"
+  currentAction: "relaxing"
+- name: "Emily Bliss"
+  age: 14
+  house: "The Blissful Haven"
+  startSubArea: "living room"
+  jobOrSchoolPlace: null
+  traits:
+  - "kind"
+  - "creative"
+  - "adventurous"
+  memories:
+  - "Emily Bliss enjoys spending time with her family in the living room, playing\
+    \ games and watching movies together."
+  - "She loves helping her parents, James Bliss and Elizabeth Bliss, in the kitchen,\
+    \ learning new recipes and cooking delicious meals."
+  - "Emily Bliss has fond memories of her parents tucking her into bed in the master\
+    \ bedroom, and telling her bedtime stories."
+  - "She and her brother, Oliver Bliss, have spent countless hours playing and reading\
+    \ books together in the children's bedroom."
+  - "Emily Bliss cherishes the times when she and her family have barbecues and play\
+    \ games in the backyard, creating joyful memories."
+  circRhythm: "7am to 10pm"
+  currentAction: "relaxing"
+- name: "Oliver Bliss"
+  age: 28
+  house: "The Blissful Haven"
+  startSubArea: "living room"
+  jobOrSchoolPlace: ""
+  traits:
+  - "kind"
+  - "creative"
+  - "responsible"
+  memories:
+  - "Oliver Bliss has always loved spending time with his family in the living room,\
+    \ playing games and watching movies together."
+  - "He remembers the joyous moments in the kitchen, where his mother Elizabeth Bliss\
+    \ would bake delicious treats for the family."
+  - "Growing up in the master bedroom, Oliver Bliss recalls the comfort and warmth\
+    \ of his parents' love for each other."
+  - "The memories of playing games and telling stories with his sister Emily Bliss\
+    \ in the children's bedroom are some of Oliver's most cherished moments."
+  - "In the backyard of The Blissful Haven, Oliver Bliss and his father James Bliss\
+    \ would spend quality time bonding over gardening and barbecues."
+  circRhythm: "8am to 12am"
+  currentAction: ""
+- name: "Emma Scott"
+  age: 29
+  house: "Dream Haven"
+  startSubArea: "living room"
+  jobOrSchoolPlace: null
+  traits:
+  - "friendly"
+  - "organized"
+  - "adventurous"
+  memories:
+  - "Emma Scott loves living in Dream Haven with her best friend, Sophia Adams, and\
+    \ close friends Oliver Johnson and Liam Davis."
+  - "She has many fond memories of spending time together with her friends in the\
+    \ living room, playing games and watching movies."
+  - "Emma Scott cherishes the memories of cooking delicious meals in the kitchen with\
+    \ Sophia Adams and experimenting with new recipes."
+  - "She remembers the cozy nights spent in Bedroom 1, sharing stories and secrets\
+    \ with Sophia Adams."
+  - "Emma Scott enjoys the peacefulness of Bedroom 2, where she can relax and unwind\
+    \ after a long day."
+  - "She loves spending time in the backyard, gardening and enjoying the fresh air\
+    \ with Oliver Johnson and Liam Davis."
+  circRhythm: "8am to 12am"
+  currentAction: "reading a book"
+- name: "Sophia Adams"
+  age: 28
+  house: "Dream Haven"
+  startSubArea: "living room"
+  jobOrSchoolPlace: null
+  traits:
+  - "friendly"
+  - "organized"
+  - "adventurous"
+  memories:
+  - "Sophia Adams and Emma Scott have been best friends since childhood. They have\
+    \ shared countless memories together."
+  - "Living in Dream Haven with Emma, Oliver, and Liam has been a dream come true\
+    \ for Sophia. They have created a loving and supportive home environment."
+  - "Sophia cherishes the late-night conversations and laughter shared with her housemates\
+    \ in the living room."
+  - "Sophia loves to cook and experiment with new recipes in the kitchen. The aroma\
+    \ of delicious food fills the house, creating a warm and inviting atmosphere."
+  - "The backyard of Dream Haven is a tranquil oasis for Sophia. She enjoys spending\
+    \ time there, reading her favorite books and soaking up the sun."
+  circRhythm: "7am to 11pm"
+  currentAction: "relaxing in the living room"
+- name: "Oliver Johnson"
+  age: 30
+  house: "Dream Haven"
+  startSubArea: "living room"
+  jobOrSchoolPlace: null
+  traits:
+  - "friendly"
+  - "outgoing"
+  - "fun-loving"
+  memories:
+  - "Living with Emma Scott, Sophia Adams, and Liam Davis in the house called 'Dream\
+    \ Haven'"
+  - "Having memorable times with friends in the living room"
+  - "Cooking delicious meals together in the kitchen"
+  - "Late-night conversations with Liam Davis in bedroom 1"
+  - "Enjoying the backyard for BBQ parties"
+  circRhythm: "8am to 12am"
+  currentAction: "watching TV in the living room"
+- name: "Liam Davis"
+  age: 30
+  house: "Dream Haven"
+  startSubArea: "living room"
+  jobOrSchoolPlace: ""
+  traits:
+  - "friendly"
+  - "loyal"
+  - "adventurous"
+  memories:
+  - "Liam Davis and Oliver Johnson became close friends during a hiking trip in the\
+    \ mountains."
+  - "Living in Dream Haven with Emma Scott, Sophia Adams, and Oliver Johnson has been\
+    \ an amazing experience."
+  - "Liam Davis remembers the time when the whole house gathered in the living room\
+    \ to celebrate his promotion at work."
+  - "He treasures the memories of late-night conversations in the backyard under the\
+    \ starry sky with his housemates."
+  circRhythm: "8am to 12am"
+  currentAction: "watching TV"
+- name: "Michael Johnson"
+  age: 40
+  house: "Villa Leonis"
+  startSubArea: "master bedroom"
+  jobOrSchoolPlace: ""
+  traits:
+  - "loving"
+  - "responsible"
+  memories:
+  - "Michael Johnson and Jennifer Johnson, a loving couple, have created a warm and\
+    \ welcoming home at Villa Leonis."
+  - "They have a beautiful daughter named Sophie Johnson, who brings joy and happiness\
+    \ to their lives."
+  - "Michael Johnson cherishes the time spent with his family and is always there\
+    \ to support them."
+  - "Living in Villa Leonis has provided Michael Johnson and his family with a comfortable\
+    \ and peaceful environment."
+  - "Memories of laughter and love fill every corner of their home."
+  circRhythm: "7am to 10pm"
+  currentAction: "relaxing"
+- name: "Jennifer Johnson"
+  age: 32
+  house: "Villa Leonis"
+  startSubArea: "master bedroom"
+  jobOrSchoolPlace: ""
+  traits:
+  - "loving"
+  - "organized"
+  - "caring"
+  memories:
+  - "Jennifer Johnson loves living in Villa Leonis with her husband and daughter"
+  - "She enjoys spending quality time with her family in the living room"
+  - "Jennifer Johnson has fond memories of cooking delicious meals in the kitchen"
+  - "She cherishes the peaceful moments in the backyard, surrounded by nature"
+  circRhythm: "6am to 10pm"
+  currentAction: "relaxing"
+- name: "Sophie Johnson"
+  age: 12
+  house: "Villa Leonis"
+  startSubArea: "master bedroom"
+  jobOrSchoolPlace: ""
+  traits:
+  - "kind"
+  - "hardworking"
+  - "creative"
+  memories:
+  - "Sophie Johnson lives in Villa Leonis with her parents, Michael and Jennifer Johnson."
+  - "She has fond memories of the family spending quality time together in the backyard,\
+    \ playing games and having picnics."
+  - "Sophie Johnson remembers the cozy atmosphere of the living room, where the family\
+    \ would gather to watch movies and share stories."
+  - "She cherishes the moments in the kitchen, helping her parents prepare delicious\
+    \ meals and learning new recipes."
+  - "Sophie Johnson has a special bond with her parents, who have always supported\
+    \ and encouraged her creativity."
+  circRhythm: "7am to 11pm"
+  currentAction: "studying"
+- name: "Sophia Anderson"
+  age: 27
+  house: "Evergreen Villa"
+  startSubArea: "master bedroom"
+  jobOrSchoolPlace: ""
+  traits:
+  - "organized"
+  - "creative"
+  - "friendly"
+  memories:
+  - "Sophia Anderson and David Anderson got married in the backyard of Evergreen Villa,\
+    \ surrounded by their loved ones."
+  - "Sophia and Olivia often have movie nights in the living room, cozying up with\
+    \ blankets and popcorn."
+  - "Sophia spends a lot of time in the kitchen experimenting with new recipes and\
+    \ creating delicious meals for her family and friends."
+  - "Sophia has fond memories of spending summer evenings in the backyard, playing\
+    \ games and having barbecues with David and Olivia."
+  circRhythm: "7am to 11pm"
+  currentAction: "relaxing in the master bedroom"
+- name: "David Anderson"
+  age: 35
+  house: "Evergreen Villa"
+  startSubArea: "master bedroom"
+  jobOrSchoolPlace: ""
+  traits:
+  - "caring"
+  - "responsible"
+  - "organized"
+  memories:
+  - "David Anderson is happily married to Sophia Anderson and they live together in\
+    \ the beautiful Evergreen Villa."
+  - "He remembers the first time they moved into the house and how excited they were\
+    \ to start their life together."
+  - "David cherishes the memories of cozy evenings in the living room, watching movies\
+    \ and enjoying quality time with Sophia."
+  - "He fondly remembers the fun moments they have had in the backyard, hosting barbecues\
+    \ and playing games with their friends and Olivia."
+  - "David takes pride in keeping the kitchen clean and organized, as it is the heart\
+    \ of their home where they gather to prepare meals and share stories."
+  circRhythm: "6am to 11pm"
+  currentAction: "resting"
+- name: "Olivia Miller"
+  age: 25
+  house: "Evergreen Villa"
+  startSubArea: "master bedroom"
+  jobOrSchoolPlace: ""
+  traits:
+  - "friendly"
+  - "organized"
+  - "adventurous"
+  memories:
+  - "Olivia Miller lives with Sophia Anderson and David Anderson in the house called\
+    \ 'Evergreen Villa'"
+  - "She has fond memories of her housemates; they have become like a family to her"
+  - "Olivia Miller enjoys spending time with Sophia and David in the living room,\
+    \ watching movies and having conversations"
+  - "She cherishes the moments spent in the backyard, having barbecues and enjoying\
+    \ the fresh air"
+  - "Olivia Miller values the organized and tidy environment of the master bedroom,\
+    \ ensuring a peaceful sleep"
+  circRhythm: "8am to 12am"
+  currentAction: "relaxing"
+- name: "Eleanor Turner"
+  age: 32
+  house: "The Enchanted Cottage"
+  startSubArea: "master bedroom"
+  jobOrSchoolPlace: null
+  traits:
+  - "organized"
+  - "creative"
+  - "adventurous"
+  memories:
+  - "Eleanor Turner and Henry Knight moved into 'The Enchanted Cottage' two years\
+    \ ago and fell in love with its charm."
+  - "They enjoy spending quality time together in the master bedroom, where they often\
+    \ read books and have deep conversations."
+  - "Eleanor Turner loves to experiment with new recipes in the kitchen, creating\
+    \ delicious meals for herself and Henry."
+  - "One of their favorite memories is planting a beautiful garden outside the cottage,\
+    \ filled with colorful flowers and aromatic herbs."
+  - "Eleanor Turner works as a graphic designer from home, using her creativity to\
+    \ bring clients' visions to life."
+  circRhythm: "7am to 11pm"
+  currentAction: "sleeping"
+- name: "James Thompson"
+  age: 36
+  house: "Meadowview Cottage"
+  startSubArea: "living room"
+  jobOrSchoolPlace: ""
+  traits:
+  - "loving"
+  - "responsible"
+  - "dedicated"
+  memories:
+  - "James Thompson is a dedicated husband and father, always putting his family first."
+  - "He has fond memories of cozy evenings in the living room, playing board games\
+    \ with Emily and Sophie."
+  - "James Thompson cherishes the mornings in the kitchen, making pancakes for his\
+    \ family and enjoying breakfast together."
+  - "He remembers the peaceful nights in the master bedroom, where he and Emily would\
+    \ talk about their dreams and plans for the future."
+  - "James Thompson loves watching Sophie grow and create beautiful memories in her\
+    \ own room."
+  circRhythm: "7am to 11pm"
+  currentAction: ""
+- name: "Emily Thompson"
+  age: 32
+  house: "Meadowview Cottage"
+  startSubArea: "living room"
+  jobOrSchoolPlace: ""
+  traits:
+  - "kind"
+  - "hardworking"
+  - "loving"
+  memories:
+  - "Emily Thompson and James Thompson bought their dream house, Meadowview Cottage,\
+    \ and started their new life together"
+  - "Emily Thompson loves cooking in the spacious kitchen of Meadowview Cottage"
+  - "Emily Thompson enjoys spending quality time with her family in the cozy living\
+    \ room of Meadowview Cottage"
+  - "Emily Thompson cherishes the precious moments she spends with her daughter, Sophie\
+    \ Thompson"
+  - "Emily Thompson fondly remembers the beautiful backyard of Meadowview Cottage,\
+    \ where they have many family gatherings"
+  circRhythm: "7am to 11pm"
+  currentAction: "relaxing on the sofa"
+- name: "Sophie Thompson"
+  age: 10
+  house: "Meadowview Cottage"
+  startSubArea: "living room"
+  jobOrSchoolPlace: null
+  traits:
+  - "caring"
+  - "creative"
+  - "curious"
+  memories:
+  - "Sophie Thompson loves spending time with her parents, James and Emily, in the\
+    \ living room of their cozy Meadowview Cottage."
+  - "She often helps her mom, Emily, in the kitchen, learning new recipes and creating\
+    \ delicious treats together."
+  - "Sophie Thompson cherishes the memories of bedtime stories and snuggling with\
+    \ her parents in the master bedroom of Meadowview Cottage."
+  - "She enjoys playing in her colorful and whimsical bedroom, full of toys and her\
+    \ favorite books."
+  - "Sophie Thompson loves spending time in the backyard, exploring nature, and having\
+    \ picnics with her family."
+  circRhythm: "7am to 10pm"
+  currentAction: "playing"
+- name: "Michael Johnson"
+  age: 42
+  house: "Hillside Haven"
+  startSubArea: "master bedroom"
+  jobOrSchoolPlace: null
+  traits:
+  - "kind"
+  - "hardworking"
+  - "loving"
+  memories:
+  - "Michael Johnson is a dedicated father and husband who works tirelessly to provide\
+    \ for his family."
+  - "He cherishes the loving relationship he shares with his wife, Emily Johnson."
+  - "Michael Johnson is proud of his children, Olivia and Daniel Johnson, and enjoys\
+    \ spending quality time with them."
+  - "Living in Hillside Haven, Michael Johnson appreciates the cozy and peaceful atmosphere\
+    \ of their home."
+  circRhythm: "6am to 10pm"
+  currentAction: "resting"
+- name: "Emily Johnson"
+  age: 35
+  house: "Hillside Haven"
+  startSubArea: "master bedroom"
+  jobOrSchoolPlace: ""
+  traits:
+  - "loving"
+  - "caring"
+  - "organized"
+  memories:
+  - "Emily Johnson and her husband Michael have created a loving home for their children\
+    \ Olivia and Daniel in the beautiful Hillside Haven."
+  - "Emily Johnson always ensures that the house is well-maintained and organized,\
+    \ creating a calm and comfortable environment for her family."
+  - "The Johnson family enjoys spending quality time together in the living room,\
+    \ playing games and watching movies."
+  - "Emily Johnson takes pride in her cooking skills and loves preparing delicious\
+    \ meals for her family in the kitchen."
+  - "The backyard of Hillside Haven is a peaceful retreat where Emily Johnson and\
+    \ her family often have picnics and enjoy outdoor activities."
+  circRhythm: "7am to 11pm"
+  currentAction: "relaxing"
+- name: "Daniel Johnson"
+  age: 10
+  house: "Hillside Haven"
+  startSubArea: "master bedroom"
+  jobOrSchoolPlace: null
+  traits:
+  - "curious"
+  - "energetic"
+  - "creative"
+  memories:
+  - "Daniel Johnson loves to explore the backyard and discover new things."
+  - "He enjoys spending time with his sister, Olivia Johnson, playing board games\
+    \ in the living room."
+  - "Daniel Johnson has fond memories of his parents, Michael and Emily Johnson, reading\
+    \ bedtime stories to him and his sister in the children's bedroom."
+  - "He remembers his family cooking together in the kitchen and having fun trying\
+    \ out new recipes."
+  circRhythm: "7am to 9pm"
+  currentAction: "playing with toys"
+- name: "Amelia Heartwood"
+  age: 28
+  house: "The Enchanted Cottage"
+  startSubArea: "living room"
+  jobOrSchoolPlace: null
+  traits:
+  - "kind"
+  - "creative"
+  - "optimistic"
+  memories:
+  - "Amelia Heartwood loves the cozy and magical atmosphere of The Enchanted Cottage."
+  - "She remembers the day she and Benjamin Oakwood found Luna Moonflower, their loyal\
+    \ companion, and instantly knew she would complete their little family."
+  - "Amelia Heartwood cherishes the moments spent in the master bedroom, where she\
+    \ and Benjamin cuddle, dream, and plan their future together."
+  - "She often reminisces about the delicious meals she has cooked in the kitchen,\
+    \ experimenting with new recipes and sharing them with loved ones."
+  - "Amelia Heartwood fondly recalls the countless hours spent in the study room,\
+    \ surrounded by shelves filled with books and inspiration for her artistic creations."
+  circRhythm: "7am to 10pm"
+  currentAction: "relaxing in the living room"
+- name: "Benjamin Oakwood"
+  age: 28
+  house: "The Enchanted Cottage"
+  startSubArea: "living room"
+  jobOrSchoolPlace: ""
+  traits:
+  - "loyal"
+  - "kind"
+  - "adventurous"
+  memories:
+  - "Benjamin Oakwood and Amelia Heartwood moved into The Enchanted Cottage"
+  - "Benjamin Oakwood enjoys exploring the magical garden"
+  - "Living in The Enchanted Cottage brings a sense of wonder and enchantment to Benjamin's\
+    \ life"
+  - "Benjamin cherishes the love and companionship he shares with Amelia and Luna"
+  circRhythm: "7am to 11pm"
+  currentAction: ""
+- name: "Luna Moonflower"
+  age: 27
+  house: "The Enchanted Cottage"
+  startSubArea: "living room"
+  jobOrSchoolPlace: ""
+  traits:
+  - "loyal"
+  - "compassionate"
+  - "adventurous"
+  memories:
+  - "Luna Moonflower cherishes the time spent with Amelia Heartwood and Benjamin Oakwood\
+    \ in the cozy living room of The Enchanted Cottage."
+  - "The aroma of Amelia's delicious homemade meals in the kitchen always fills Luna's\
+    \ heart with joy."
+  - "In the master bedroom, Luna often finds solace and peaceful dreams after a long\
+    \ day filled with adventure."
+  - "The study room is where Luna enjoys curling up with a good book, expanding knowledge\
+    \ and imagining new possibilities."
+  - "Exploring the enchanting garden of The Enchanted Cottage brings Luna a sense\
+    \ of wonder and connection with nature."
+  circRhythm: "8am to 10pm"
+  currentAction: ""
+- name: "Elena Turner"
+  age: 28
+  house: "Imaginative Paradise"
+  startSubArea: "master bedroom"
+  jobOrSchoolPlace: null
+  traits:
+  - "creative"
+  - "friendly"
+  - "organized"
+  memories:
+  - "Elena Turner has been living in the 'Imaginative Paradise' house with her friends\
+    \ for two years now."
+  - "She has many fond memories of cooking together with Alex, Sophia, and Gabriel\
+    \ in the kitchen."
+  - "Elena remembers a time when they transformed the backyard into a cozy outdoor\
+    \ movie theater and spent an evening watching their favorite films under the stars."
+  - "One of her most cherished memories is when the four of them redecorated the living\
+    \ room with their unique artistic touches and turned it into a vibrant and welcoming\
+    \ space."
+  - "She often recalls the day they all moved in together and how excited they were\
+    \ to create a warm and harmonious living environment as close friends."
+  circRhythm: "7am to 11pm"
+  currentAction: "relaxing in the master bedroom"
+- name: "Alex Rodriguez"
+  age: 27
+  house: "Imaginative Paradise"
+  startSubArea: "master bedroom"
+  jobOrSchoolPlace: null
+  traits:
+  - "friendly"
+  - "organized"
+  - "adventurous"
+  memories:
+  - "Living with Elena, Sophia, and Gabriel in the house 'Imaginative Paradise'"
+  - "Remodeling the kitchen with Elena and Gabriel"
+  - "Late-night movie marathons in the living room with Sophia and Gabriel"
+  - "Working on a creative project in the backyard with Elena"
+  circRhythm: "8am to 12am"
+  currentAction: "relaxing"
+- name: "Sophia Campbell"
+  age: 25
+  house: "Imaginative Paradise"
+  startSubArea: "master bedroom"
+  jobOrSchoolPlace: ""
+  traits:
+  - "friendly"
+  - "creative"
+  - "adventurous"
+  memories:
+  - "Sophia Campbell and her friends decided to live together in the house called\
+    \ 'Imaginative Paradise'"
+  - "Living with her friends Elena, Alex, and Gabriel has created a warm and supportive\
+    \ environment"
+  - "Sophia Campbell loves spending time in the backyard, where she often hosts creative\
+    \ workshops with her friends"
+  - "She frequently cooks delicious meals in the kitchen for her housemates, creating\
+    \ a sense of community"
+  circRhythm: "8am to 12am"
+  currentAction: "relaxing"
+- name: "Gabriel Evans"
+  age: 26
+  house: "Imaginative Paradise"
+  startSubArea: "master bedroom"
+  jobOrSchoolPlace: null
+  traits:
+  - "friendly"
+  - "outgoing"
+  - "creative"
+  memories:
+  - "Gabriel Evans and his friends Elena, Alex, and Sophia decided to move in together\
+    \ and create a home in Imaginative Paradise."
+  - "Living with his close friends has been an incredible experience for Gabriel.\
+    \ They have built a strong bond and support system."
+  - "Gabriel cherishes the memories they create together, whether it's cozy movie\
+    \ nights in the living room or fun cooking adventures in the kitchen."
+  - "Being surrounded by creative individuals in Imaginative Paradise has inspired\
+    \ Gabriel to pursue his passion for art and explore his artistic abilities."
+  circRhythm: "8am to 12am"
+  currentAction: "relaxing"
+- name: "Elena Nightshade"
+  age: 25
+  house: "The Enchanted Haven"
+  startSubArea: "Living Room"
+  jobOrSchoolPlace: null
+  traits:
+  - "adventurous"
+  - "creative"
+  - "caring"
+  memories:
+  - "Elena Nightshade and her friends Aiden, Luna, and Finn found the perfect house,\
+    \ 'The Enchanted Haven', to live in and create unforgettable memories"
+  - "Living together in the Enchanted Haven has brought them closer and strengthened\
+    \ their friendship"
+  - "Elena Nightshade cherishes the moments spent with her friends in the Living Room,\
+    \ where they often gather to share stories and laughter"
+  - "One memorable day, Elena Nightshade organized a themed party in the Garden, filled\
+    \ with enchanting decorations and magical moments"
+  circRhythm: "8am to 12am"
+  currentAction: "relaxing"
+- name: "Aiden Moonstone"
+  age: 0
+  house: "The Enchanted Haven"
+  startSubArea: "Living Room"
+  jobOrSchoolPlace: ""
+  traits: []
+  memories: []
+  circRhythm: ""
+  currentAction: ""
+- name: "Luna Willowbrook"
+  age: 28
+  house: "The Enchanted Haven"
+  startSubArea: "Living Room"
+  jobOrSchoolPlace: null
+  traits:
+  - "friendly"
+  - "adventurous"
+  - "creative"
+  memories:
+  - "Luna Willowbrook always loved the enchanted atmosphere of the Enchanted Haven."
+  - "Living in the Enchanted Haven with Elena, Aiden, and Finn feels like being part\
+    \ of a magical story."
+  - "Luna Willowbrook cherishes the memories of cozy evenings spent in the Living\
+    \ Room, sharing laughter and stories with friends."
+  - "The Kitchen in the Enchanted Haven is where Luna Willowbrook discovered their\
+    \ passion for cooking, experimenting with whimsical recipes."
+  - "The Master Bedroom in the Enchanted Haven is a tranquil retreat where Luna Willowbrook\
+    \ finds solace and inspiration for their creative endeavors."
+  circRhythm: "8am to 12am"
+  currentAction: "relaxing in the Living Room"
+- name: "Finn Evergreen"
+  age: 26
+  house: "The Enchanted Haven"
+  startSubArea: "Living Room"
+  jobOrSchoolPlace: ""
+  traits:
+  - "friendly"
+  - "adventurous"
+  - "creative"
+  memories:
+  - "Finn Evergreen is living in 'The Enchanted Haven' with close friends Elena Nightshade,\
+    \ Aiden Moonstone, and Luna Willowbrook"
+  - "He has many fond memories of spending time together in the Living Room, sharing\
+    \ stories and laughter"
+  - "Finn Evergreen cherishes the times they cook together in the Kitchen, experimenting\
+    \ with new recipes and flavors"
+  - "The Master Bedroom holds memories of late-night conversations, where they discuss\
+    \ their dreams and aspirations"
+  - "The Garden is a place of tranquility for Finn Evergreen, where he can escape\
+    \ into nature and find inspiration for his creative pursuits"
+  circRhythm: "7am to 11pm"
+  currentAction: ""
+- name: "Alejandro Martinez"
+  age: 32
+  house: "Casa de la Luna"
+  startSubArea: "living room"
+  jobOrSchoolPlace: null
+  traits:
+  - "outgoing"
+  - "creative"
+  - "adventurous"
+  memories:
+  - "Alejandro Martinez and Sofia Vasquez moved into Casa de la Luna, their cozy home\
+    \ with a beautiful view of the moon."
+  - "Living with Sofia has been a blessing. We support and inspire each other every\
+    \ day."
+  - "I remember the first time we cooked a meal together in our kitchen. The aroma\
+    \ of our homemade pasta filled the air."
+  - "During the summer nights, we often sit in the backyard, gazing at the stars and\
+    \ dreaming about our future."
+  - "I'll never forget the moment I received the call that I got the job promotion.\
+    \ Sofia and I celebrated with a toast in our living room."
+  circRhythm: "7am to 11pm"
+  currentAction: "relaxing in the living room"
+- name: "Sofia Vasquez"
+  age: 28
+  house: "Casa de la Luna"
+  startSubArea: "living room"
+  jobOrSchoolPlace: null
+  traits:
+  - "kind"
+  - "hardworking"
+  - "loving"
+  memories:
+  - "Sofia Vasquez and Alejandro Martinez are a loving couple who share a beautiful\
+    \ home called Casa de la Luna"
+  - "They cherish their time spent together in the living room, where they unwind\
+    \ after a long day"
+  - "Sofia Vasquez remembers the delicious meals she has cooked for Alejandro Martinez\
+    \ in the kitchen, creating unforgettable memories"
+  - "The bedroom in Casa de la Luna holds special memories of peaceful nights and\
+    \ sweet dreams for Sofia Vasquez"
+  - "The backyard of Casa de la Luna is where Sofia Vasquez and Alejandro Martinez\
+    \ enjoy their morning coffee, surrounded by nature"
+  circRhythm: "7am to 11pm"
+  currentAction: "relaxing"
+- name: "Henry Simmons"
+  age: 40
+  house: "Copperleaf Manor"
+  startSubArea: "master bedroom"
+  jobOrSchoolPlace: ""
+  traits:
+  - "kind"
+  - "hardworking"
+  - "loving"
+  memories:
+  - "Henry Simmons is living a happy life with his wife, Olivia Simmons, and their\
+    \ daughter, Emma Simmons, in Copperleaf Manor."
+  - "He remembers the first time he saw Olivia and knew she was the one for him."
+  - "Henry cherishes the memories of family dinners in the kitchen, laughing and sharing\
+    \ stories."
+  - "He remembers the joy of watching Emma take her first steps in the living room."
+  - "Henry loves spending time in the garden, tending to the flowers and enjoying\
+    \ the peacefulness it brings."
+  circRhythm: "7am to 11pm"
+  currentAction: ""
+- name: "Olivia Simmons"
+  age: 30
+  house: "Copperleaf Manor"
+  startSubArea: "master bedroom"
+  jobOrSchoolPlace: null
+  traits:
+  - "kind"
+  - "hardworking"
+  - "loving"
+  memories:
+  - "Olivia Simmons enjoys spending quality time with her husband, Henry Simmons,\
+    \ and their daughter, Emma Simmons, in the living room of Copperleaf Manor."
+  - "She cherishes the peaceful moments spent in the garden, surrounded by the beautiful\
+    \ flowers and the soothing sounds of nature."
+  - "Olivia Simmons recalls the joy of preparing delicious meals for her family in\
+    \ the kitchen of their beloved home."
+  - "She fondly remembers the day they moved into Copperleaf Manor, creating a warm\
+    \ and loving environment for their family to thrive."
+  circRhythm: "7am to 10pm"
+  currentAction: "relaxing in the living room"
+- name: "Emma Simmons"
+  age: 25
+  house: "Copperleaf Manor"
+  startSubArea: "master bedroom"
+  jobOrSchoolPlace: ""
+  traits:
+  - "kind"
+  - "hardworking"
+  - "creative"
+  memories:
+  - "Emma Simmons grew up in Copperleaf Manor, a cozy home filled with love and warmth"
+  - "She remembers her parents, Henry and Olivia Simmons, always supporting her dreams\
+    \ and encouraging her to be creative"
+  - "Emma cherishes the moments spent in the kitchen with her family, cooking and\
+    \ sharing delicious meals together"
+  - "She fondly recalls the peaceful evenings spent in the garden, surrounded by beautiful\
+    \ flowers and the soothing sounds of nature"
+  circRhythm: "7am to 11pm"
+  currentAction: "relaxing in the living room"
+- name: "Alexandra Grant"
+  age: 30
+  house: "Villa Serendipity"
+  startSubArea: "master bedroom"
+  jobOrSchoolPlace: ""
+  traits:
+  - "friendly"
+  - "organized"
+  - "adventurous"
+  memories:
+  - "Alexandra Grant and Daniel Matthews got married last year and moved into their\
+    \ dream house, Villa Serendipity."
+  - "Living in Villa Serendipity has been a wonderful experience filled with joy and\
+    \ laughter."
+  - "Alexandra Grant enjoys spending time in the garden, tending to the beautiful\
+    \ flowers and enjoying the peaceful atmosphere."
+  - "One of Alexandra Grant's fondest memories is of hosting a surprise birthday party\
+    \ for Daniel Matthews in the living room, surrounded by their close friends and\
+    \ loved ones."
+  circRhythm: "7am to 11pm"
+  currentAction: "relaxing in the living room"
+- name: "Daniel Matthews"
+  age: 32
+  house: "Villa Serendipity"
+  startSubArea: "master bedroom"
+  jobOrSchoolPlace: ""
+  traits:
+  - "friendly"
+  - "organized"
+  - "adventurous"
+  memories:
+  - "Daniel Matthews and Alexandra Grant got married last year and moved into their\
+    \ dream house 'Villa Serendipity'."
+  - "They have a close friend Sophie Wilson who often visits them and spends time\
+    \ in the house together."
+  - "Daniel Matthews loves to explore new places and often plans surprise trips for\
+    \ his spouse and friend."
+  - "Living in Villa Serendipity has brought a sense of peace and joy to Daniel Matthews'\
+    \ life."
+  - "Daniel Matthews enjoys spending time in the garden, tending to the plants and\
+    \ listening to the birds."
+  circRhythm: "7am to 11pm"
+  currentAction: ""
+- name: "Sophie Wilson"
+  age: 28
+  house: "Villa Serendipity"
+  startSubArea: "master bedroom"
+  jobOrSchoolPlace: null
+  traits:
+  - "friendly"
+  - "adventurous"
+  - "creative"
+  memories:
+  - "Sophie Wilson is living with her close friends Alexandra Grant and Daniel Matthews\
+    \ in the house called 'Villa Serendipity'."
+  - "She cherishes the moments spent with Alexandra and Daniel, who are a loving married\
+    \ couple."
+  - "Sophie Wilson loves the spacious and cozy master bedroom in Villa Serendipity,\
+    \ which has a beautiful view of the garden."
+  - "She enjoys spending time in the living room, where they often gather to watch\
+    \ movies and have deep conversations."
+  - "Sophie Wilson loves experimenting with new recipes in the well-equipped kitchen\
+    \ of Villa Serendipity."
+  - "She finds solace and relaxation in the serene garden of the house, surrounded\
+    \ by beautiful flowers and lush greenery."
+  - "Sophie Wilson has fond memories of the times when they all worked together on\
+    \ various creative projects in the house."
+  - "She values the supportive and inspiring environment created by her housemates,\
+    \ which encourages her to pursue her artistic endeavors."
+  - "Sophie Wilson treasures the memories of laughter and joy shared with Alexandra\
+    \ and Daniel, which have strengthened their bond as friends and housemates."
+  circRhythm: "7am to 11pm"
+  currentAction: "resting"
+- name: "Oliver Greenfield"
+  age: 28
+  house: "Dream Haven"
+  startSubArea: "living room"
+  jobOrSchoolPlace: ""
+  traits:
+  - "friendly"
+  - "organized"
+  - "adventurous"
+  memories:
+  - "Oliver Greenfield and his friends, Sophia Park, Emma Harrison, and Liam Bennett,\
+    \ decided to live together in 'Dream Haven' house"
+  - "Living conditions in 'Dream Haven' have been great, with spacious rooms and a\
+    \ beautiful backyard"
+  - "Oliver Greenfield often gathers with his friends in the living room to watch\
+    \ movies and have game nights"
+  - "Oliver Greenfield loves the adventure of living with his friends and creating\
+    \ memories in 'Dream Haven'"
+  circRhythm: "7am to 11pm"
+  currentAction: ""
+- name: "Sophia Park"
+  age: 26
+  house: "Dream Haven"
+  startSubArea: "living room"
+  jobOrSchoolPlace: null
+  traits:
+  - "friendly"
+  - "organized"
+  - "creative"
+  memories:
+  - "Sophia Park and her friends decided to move in together and rent a beautiful\
+    \ house called 'Dream Haven'"
+  - "Sophia Park enjoys spending quality time with her housemates in the living room,\
+    \ sharing stories and laughter"
+  - "Sophia Park has fond memories of cooking delicious meals in the kitchen with\
+    \ her friends, trying out new recipes and experimenting with flavors"
+  - "Sophia Park cherishes the memories of decorating her bedroom with personal touches,\
+    \ creating a cozy and inspiring space"
+  - "Sophia Park loves spending time in the backyard, surrounded by nature and enjoying\
+    \ outdoor activities with her friends"
+  circRhythm: "8am to 12am"
+  currentAction: "relaxing in the living room"
+- name: "Emma Harrison"
+  age: 28
+  house: "Dream Haven"
+  startSubArea: "living room"
+  jobOrSchoolPlace: null
+  traits:
+  - "friendly"
+  - "organized"
+  - "adventurous"
+  memories:
+  - "Emma Harrison moved into Dream Haven with her close friends Oliver Greenfield,\
+    \ Sophia Park, and Liam Bennett."
+  - "She remembers the excitement of finding the perfect house with enough space for\
+    \ all of them."
+  - "Emma Harrison cherishes the fun times they have in the living room, hanging out\
+    \ and watching movies together."
+  - "She recalls the delicious meals they have cooked together in the kitchen, experimenting\
+    \ with new recipes."
+  - "Emma Harrison enjoys the peaceful nights she spends in bedroom 1, surrounded\
+    \ by her friends who have become like family."
+  - "She loves spending time in the backyard, gardening and hosting barbecues with\
+    \ her friends."
+  circRhythm: "7am to 11pm"
+  currentAction: ""
+- name: "Liam Bennett"
+  age: 27
+  house: "Dream Haven"
+  startSubArea: "living room"
+  jobOrSchoolPlace: null
+  traits:
+  - "friendly"
+  - "organized"
+  - "adventurous"
+  memories:
+  - "Liam Bennett and his close friends, Oliver Greenfield, Sophia Park, and Emma\
+    \ Harrison, decided to live together in the house called 'Dream Haven'"
+  - "Liam Bennett enjoys spending time in the backyard, where he loves to tend to\
+    \ his garden and relax"
+  - "He has fond memories of late-night conversations with his housemates in the cozy\
+    \ living room"
+  - "Liam Bennett cherishes the times they cooked and shared meals together in the\
+    \ spacious kitchen"
+  - "He remembers the excitement of moving into their new home and the sense of belonging\
+    \ they created"
+  circRhythm: "8am to 12am"
+  currentAction: "reading a book"
+- name: "Oliver Finch"
+  age: 28
+  house: "The Enchanted Villa"
+  startSubArea: "Living Room"
+  jobOrSchoolPlace: ""
+  traits:
+  - "friendly"
+  - "organized"
+  - "adventurous"
+  memories:
+  - "Oliver Finch and his friends, Sophia Rivers, Liam Carter, and Emma Bennett, share\
+    \ a villa called 'The Enchanted Villa'"
+  - "One of Oliver's favorite memories is playing board games with his friends in\
+    \ the living room of the villa"
+  - "Oliver loves cooking and experimenting with new recipes in the kitchen of the\
+    \ villa"
+  - "The garden of the villa is a peaceful place where Oliver enjoys reading and tending\
+    \ to the plants"
+  - "Oliver's bedroom in the villa is his sanctuary, where he can relax and unwind\
+    \ after a long day"
+  - "Oliver and his friends often have movie nights in the cozy guest room of the\
+    \ villa"
+  - "The study room in the villa is where Oliver gets work done and pursues his hobbies"
+  circRhythm: "7am to 11pm"
+  currentAction: "relaxing in the living room"
+- name: "Sophia Rivers"
+  age: 28
+  house: "The Enchanted Villa"
+  startSubArea: "Living Room"
+  jobOrSchoolPlace: null
+  traits:
+  - "friendly"
+  - "organized"
+  - "adventurous"
+  memories:
+  - "Sophia Rivers enjoys spending time with her friends in the living room of The\
+    \ Enchanted Villa."
+  - "She has fond memories of cooking delicious meals together with Oliver Finch in\
+    \ the kitchen."
+  - "Sophia Rivers loves the tranquility of the garden and often spends time there,\
+    \ enjoying nature."
+  - "She cherishes the peaceful moments in the master bedroom, where she can relax\
+    \ and unwind."
+  - "Sophia Rivers has wonderful memories of studying for exams with Liam Carter in\
+    \ the study room."
+  circRhythm: "7am to 11pm"
+  currentAction: ""
+- name: "Liam Carter"
+  age: 28
+  house: "The Enchanted Villa"
+  startSubArea: "Living Room"
+  jobOrSchoolPlace: null
+  traits:
+  - "friendly"
+  - "organized"
+  - "adventurous"
+  memories:
+  - "Liam Carter moved into 'The Enchanted Villa' with his friends Oliver Finch, Sophia\
+    \ Rivers, and Emma Bennett"
+  - "He remembers the excitement and joy of finding the perfect villa for them to\
+    \ live together"
+  - "Liam Carter cherishes the memories of late-night conversations in the living\
+    \ room with his friends"
+  - "He recalls the fun times cooking and experimenting with new recipes in the kitchen"
+  - "Liam Carter often reminisces about the peaceful moments spent in the villa's\
+    \ garden, surrounded by nature"
+  - "He has fond memories of the cozy and comfortable nights in the master bedroom"
+  - "Liam Carter enjoyed hosting guests in the guest room, creating unforgettable\
+    \ memories"
+  - "He remembers spending hours studying and working in the study room, driven by\
+    \ his ambition"
+  - "Liam Carter is grateful for the support and friendship of Oliver, Sophia, and\
+    \ Emma, which made the villa truly feel like home"
+  circRhythm: "7am to 11pm"
+  currentAction: "relaxing in the living room"
+- name: "Emma Bennett"
+  age: 25
+  house: "The Enchanted Villa"
+  startSubArea: "Living Room"
+  jobOrSchoolPlace: null
+  traits:
+  - "friendly"
+  - "organized"
+  - "creative"
+  memories:
+  - "Emma Bennett enjoys living in The Enchanted Villa with her friends Oliver Finch,\
+    \ Sophia Rivers, and Liam Carter"
+  - "She cherishes the memories of laughter and shared meals in the cozy Living Room"
+  - "Emma Bennett often experiments with new recipes in the Kitchen, creating delicious\
+    \ meals for her friends"
+  - "She loves spending time in the peaceful Garden, tending to the plants and enjoying\
+    \ the fresh air"
+  - "Emma Bennett has created a comfortable and stylish Master Bedroom that reflects\
+    \ her creativity and personal style"
+  circRhythm: "8am to 12am"
+  currentAction: "relaxing in the Living Room"
+- name: "William Peterson"
+  age: 42
+  house: "Violet Manor"
+  startSubArea: "living room"
+  jobOrSchoolPlace: ""
+  traits:
+  - "kind"
+  - "hardworking"
+  - "loving"
+  memories:
+  - "William Peterson is happily married to Olivia Peterson and they have a wonderful\
+    \ daughter named Sophie"
+  - "He cherishes the moments spent with his family in the cozy living room of Violet\
+    \ Manor"
+  - "William has fond memories of cooking delicious meals for his loved ones in the\
+    \ kitchen of their home"
+  - "He and Olivia enjoy peaceful nights in their cozy master bedroom, reminiscing\
+    \ about their journey together"
+  - "William loves watching Sophie's growth in her adorable children's bedroom and\
+    \ creating beautiful memories"
+  circRhythm: "6am to 10pm"
+  currentAction: "relaxing with his family"
+- name: "Olivia Peterson"
+  age: 30
+  house: "Violet Manor"
+  startSubArea: "living room"
+  jobOrSchoolPlace: null
+  traits:
+  - "loving"
+  - "caring"
+  - "organized"
+  memories:
+  - "Olivia Peterson enjoyed decorating Violet Manor with her husband, William Peterson,\
+    \ creating a cozy and welcoming atmosphere for their family."
+  - "She remembers the excitement of setting up Sophie Peterson's nursery in the children's\
+    \ bedroom, eagerly anticipating the arrival of their daughter."
+  - "Olivia Peterson cherishes the memories of family gatherings and game nights in\
+    \ the living room, where laughter and joy filled the air."
+  - "She fondly recalls the moments spent cooking together with William in the kitchen,\
+    \ trying new recipes and creating delicious meals for their loved ones."
+  circRhythm: "7am to 10pm"
+  currentAction: "relaxing in the living room"
+- name: "Sophie Peterson"
+  age: 12
+  house: "Violet Manor"
+  startSubArea: "master bedroom"
+  jobOrSchoolPlace: null
+  traits:
+  - "kind"
+  - "creative"
+  - "curious"
+  memories:
+  - "Sophie Peterson lives in the beautiful Violet Manor with her parents, William\
+    \ and Olivia Peterson."
+  - "One of Sophie's fondest memories is when her family organized a surprise birthday\
+    \ party for her in the backyard of their house. It was a day full of laughter,\
+    \ games, and delicious cake."
+  - "Sophie adores spending time in the kitchen with her mom, learning new recipes\
+    \ and baking sweets together. They often have baking sessions on Sunday afternoons,\
+    \ creating sweet memories and even sweeter treats."
+  - "Every night before bed, Sophie's dad, William, reads her a bedtime story. These\
+    \ moments transport Sophie to magical worlds and inspire her own creative imagination."
+  - "Sophie loves exploring the living room, where she often builds blanket forts\
+    \ and hosts her stuffed animal tea parties. It's a space where her imagination\
+    \ knows no bounds."
+  circRhythm: "7am to 10pm"
+  currentAction: "reading a book in the master bedroom"
+- name: "Emily Thompson"
+  age: 25
+  house: "Aurora House"
+  startSubArea: "living room"
+  jobOrSchoolPlace: null
+  traits:
+  - "friendly"
+  - "organized"
+  - "adventurous"
+  memories:
+  - "Emily Thompson enjoys living in Aurora House with her close friends and roommates."
+  - "She remembers the fun times they had in the living room, watching movies and\
+    \ playing games together."
+  - "Emily Thompson cherishes the memories of cooking delicious meals for her friends\
+    \ in the kitchen."
+  - "She recalls the cozy and comfortable nights spent in bedroom 1, sharing stories\
+    \ and laughter with her roommates."
+  - "Emily Thompson appreciates the peaceful and serene atmosphere of the garden,\
+    \ where she often spends time relaxing and enjoying nature."
+  circRhythm: "7am to 11pm"
+  currentAction: "relaxing in the living room"
+- name: "James Anderson"
+  age: 28
+  house: "Aurora House"
+  startSubArea: "living room"
+  jobOrSchoolPlace: null
+  traits:
+  - "friendly"
+  - "organized"
+  - "adventurous"
+  memories:
+  - "James Anderson and his friends moved into Aurora House together and created many\
+    \ unforgettable memories."
+  - "Living with his friends has been a wonderful experience, filled with laughter\
+    \ and shared responsibilities."
+  - "James Anderson cherishes the times spent cooking and enjoying meals together\
+    \ in the kitchen."
+  - "He remembers the late-night conversations in the living room, where they shared\
+    \ their dreams and supported each other."
+  - "One summer, they transformed the garden into a beautiful oasis, perfect for relaxation\
+    \ and outdoor gatherings."
+  circRhythm: "8am to 12am"
+  currentAction: "reading a book"
+- name: "Sophie Wilson"
+  age: 25
+  house: "Aurora House"
+  startSubArea: "living room"
+  jobOrSchoolPlace: null
+  traits:
+  - "friendly"
+  - "organized"
+  - "creative"
+  memories:
+  - "Sophie Wilson enjoys living in Aurora House with her close friends and roommates."
+  - "She loves spending time in the kitchen, experimenting with new recipes and cooking\
+    \ delicious meals for everyone."
+  - "Sophie has fond memories of the cozy bedroom she shares with her friends, where\
+    \ they often have movie nights and share stories."
+  - "One of Sophie's favorite memories is taking care of the beautiful garden in Aurora\
+    \ House, where she cultivates various plants and flowers."
+  circRhythm: "8am to 12am"
+  currentAction: "reading a book"
+- name: "Oliver Davis"
+  age: 28
+  house: "Aurora House"
+  startSubArea: "living room"
+  jobOrSchoolPlace: null
+  traits:
+  - "friendly"
+  - "organized"
+  - "adventurous"
+  memories:
+  - "Oliver Davis and his friends decided to move in together and rent a house called\
+    \ Aurora House. They all contribute to the rent and expenses."
+  - "Living in Aurora House has been a great experience for Oliver. It's a warm and\
+    \ cozy place where they create wonderful memories together."
+  - "Oliver enjoys cooking and experimenting with new recipes in the fully-equipped\
+    \ kitchen of Aurora House. They often have fun cooking sessions with his friends."
+  - "One memorable incident in Aurora House was when they organized a surprise birthday\
+    \ party for Lily. They decorated the living room with balloons and had a great\
+    \ time celebrating her special day."
+  - "Oliver's bedroom in Aurora House is his personal space where he can relax and\
+    \ unwind. He has decorated it with pictures of his travels and souvenirs from\
+    \ different countries."
+  circRhythm: "8am to 12am"
+  currentAction: "watching a movie in the living room"
+- name: "Lily Miller"
+  age: 28
+  house: "Aurora House"
+  startSubArea: "bedroom 1"
+  jobOrSchoolPlace: ""
+  traits:
+  - "friendly"
+  - "organized"
+  - "creative"
+  memories:
+  - "Lily Miller and her friends found Aurora House together and decided to live as\
+    \ roommates."
+  - "Living in Aurora House has been a wonderful experience, creating many happy memories."
+  - "Lily Miller enjoys spending time in the garden, where she can relax and let her\
+    \ creativity flow."
+  - "Lily Miller is grateful for the supportive and friendly atmosphere in Aurora\
+    \ House."
+  circRhythm: "7am to 10pm"
+  currentAction: "relaxing in the living room"
+- name: "Henry Hawthorne"
+  age: 40
+  house: "Hawthorne Manor"
+  startSubArea: "master bedroom"
+  jobOrSchoolPlace: null
+  traits:
+  - "responsible"
+  - "loving"
+  - "patient"
+  memories:
+  - "Henry Hawthorne is a dedicated father and loving husband"
+  - "He cherishes the memories of family dinners in the kitchen, sharing laughter\
+    \ and stories"
+  - "Henry Hawthorne recalls the joy of gardening together in the sunny garden, creating\
+    \ a peaceful sanctuary"
+  - "He fondly remembers the excitement of watching his daughter, Sophie, take her\
+    \ first steps in the living room"
+  circRhythm: "6am to 10pm"
+  currentAction: "sleeping"
+- name: "Alice Hawthorne"
+  age: 35
+  house: "Hawthorne Manor"
+  startSubArea: "master bedroom"
+  jobOrSchoolPlace: ""
+  traits:
+  - "loving"
+  - "caring"
+  - "organized"
+  memories:
+  - "Alice Hawthorne is a loving wife and mother, residing in the cozy Hawthorne Manor\
+    \ with her husband Henry Hawthorne and their daughter Sophie Hawthorne."
+  - "She cherishes the memories of their wedding day, a beautiful celebration surrounded\
+    \ by family and friends."
+  - "Alice fondly remembers the day they moved into Hawthorne Manor, excited to create\
+    \ a warm and welcoming home for their family."
+  - "She has always taken pride in keeping their home organized and ensuring that\
+    \ every room reflects their style and personality."
+  - "Alice values quality time with her family and often recalls evenings spent in\
+    \ the living room, sharing stories and laughter."
+  circRhythm: "7am to 11pm"
+  currentAction: "relaxing in the master bedroom"
+- name: "Sophie Hawthorne"
+  age: 17
+  house: "Hawthorne Manor"
+  startSubArea: "master bedroom"
+  jobOrSchoolPlace: null
+  traits:
+  - "kind"
+  - "hardworking"
+  - "adventurous"
+  memories:
+  - "Sophie Hawthorne lives in Hawthorne Manor with her parents, Henry and Alice Hawthorne"
+  - "She fondly remembers the cozy and warm atmosphere in the master bedroom, where\
+    \ she used to spend quality time with her parents"
+  - "Sophie Hawthorne cherishes the memories of helping her parents in the kitchen,\
+    \ experimenting with new recipes and creating delicious meals together"
+  - "She recalls the countless family gatherings and movie nights in the living room,\
+    \ filled with laughter and joy"
+  - "Sophie Hawthorne loves spending time in the garden, surrounded by beautiful flowers\
+    \ and the soothing sound of nature"
+  circRhythm: "7am to 11pm"
+  currentAction: "relaxing in her room"
+- name: "Oliver White"
+  age: 28
+  house: "Evergreen Haven"
+  startSubArea: "living room"
+  jobOrSchoolPlace: ""
+  traits:
+  - "peaceful"
+  - "loving"
+  memories:
+  - "Oliver White is happily living with his partner, Sophia Black, in their cozy\
+    \ home called 'Evergreen Haven'"
+  - "They both enjoy spending quality time together in the peaceful living room, where\
+    \ they unwind and connect with each other"
+  - "Oliver White cherishes the memories of cooking delicious meals for Sophia in\
+    \ their beautiful kitchen"
+  - "The master bedroom holds special memories for Oliver and Sophia, as it is where\
+    \ they share intimate moments and dreams for the future"
+  - "They take pride in their well-maintained garden, where they can relax and enjoy\
+    \ nature's beauty"
+  circRhythm: "7am to 11pm"
+  currentAction: ""
+- name: "Sophia Black"
+  age: 28
+  house: "Evergreen Haven"
+  startSubArea: "living room"
+  jobOrSchoolPlace: null
+  traits:
+  - "peaceful"
+  - "loving"
+  - "organized"
+  memories:
+  - "Sophia Black and Oliver White enjoy their peaceful life in their cozy house,\
+    \ 'Evergreen Haven'"
+  - "Sophia Black loves to spend quality time with Oliver in the living room, where\
+    \ they relax and watch movies together"
+  - "Sophia Black cherishes the memories of cooking delicious meals for Oliver in\
+    \ their kitchen"
+  - "Sophia Black feels an immense sense of comfort in their cozy master bedroom,\
+    \ where they share precious moments"
+  - "Sophia Black loves taking care of their beautiful garden, where she finds solace\
+    \ and peace"
+  circRhythm: "8am to 11pm"
+  currentAction: "relaxing"
+- name: "Emily Turner"
+  age: 25
+  house: "Villa Veranda"
+  startSubArea: "living room"
+  jobOrSchoolPlace: ""
+  traits:
+  - "friendly"
+  - "organized"
+  - "creative"
+  memories:
+  - "Emily Turner remembers the first day they moved into Villa Veranda. It was an\
+    \ exciting and chaotic day, but they were all filled with so much joy and anticipation\
+    \ for the new chapter in their lives."
+  - "Living together has been an amazing experience for Emily Turner. They have built\
+    \ a strong bond of friendship and created countless happy memories together. Their\
+    \ house has become a true home."
+  - "Emily Turner cherishes the late-night conversations they have in the living room.\
+    \ It's their favorite spot to unwind, share stories, and support each other. Those\
+    \ moments bring them closer every day."
+  - "One of Emily Turner's fondest memories is cooking together in the kitchen. They\
+    \ would experiment with new recipes, laugh, and create delicious meals. It's a\
+    \ time of creativity, laughter, and the joy of shared food."
+  - "The master bedroom holds a special place in Emily Turner's heart. It's their\
+    \ sanctuary, a cozy space where they find peace and relaxation. They love the\
+    \ feeling of being surrounded by friends and loved ones."
+  circRhythm: "7am to 11pm"
+  currentAction: ""
+- name: "Oliver Williams"
+  age: 28
+  house: "Villa Veranda"
+  startSubArea: "living room"
+  jobOrSchoolPlace: ""
+  traits:
+  - "friendly"
+  - "organized"
+  - "outgoing"
+  memories:
+  - "Oliver Williams and his friends, Emily Turner, Sophia Davis, and Alexander Thompson\
+    \ decided to live together in a house called Villa Veranda"
+  - "Living in Villa Veranda has been an amazing experience. They enjoy each other's\
+    \ company and have created a warm and welcoming home"
+  - "Oliver is grateful for the friendship he shares with Emily, Sophia, and Alexander.\
+    \ They are always there for each other and support one another in their goals\
+    \ and ambitions"
+  - "Even though they have different personalities, they have found a way to coexist\
+    \ harmoniously and create a positive living environment"
+  - "Oliver has created many fond memories in the house, from cooking delicious meals\
+    \ together in the kitchen to relaxing and watching movies in the living room"
+  circRhythm: "7am to 11pm"
+  currentAction: ""
+- name: "Sophia Davis"
+  age: 26
+  house: "Villa Veranda"
+  startSubArea: "living room"
+  jobOrSchoolPlace: ""
+  traits:
+  - "friendly"
+  - "organized"
+  - "creative"
+  memories:
+  - "Sophia Davis enjoys living with her close friends Emily, Oliver, and Alexander\
+    \ in Villa Veranda."
+  - "She has created a beautiful and cozy living room in the house, where everyone\
+    \ gathers to relax and have fun."
+  - "Sophia often cooks delicious meals for her housemates in the kitchen and enjoys\
+    \ experimenting with new recipes."
+  - "She takes great pride in keeping the master bedroom clean and tidy, creating\
+    \ a peaceful and comfortable space for herself."
+  - "Sophia has fond memories of spending time with her friends in the garden, whether\
+    \ it's having a barbecue or simply enjoying the fresh air."
+  circRhythm: "8am to 12am"
+  currentAction: ""
+- name: "Alexander Thompson"
+  age: 28
+  house: "Villa Veranda"
+  startSubArea: "living room"
+  jobOrSchoolPlace: null
+  traits:
+  - "friendly"
+  - "outgoing"
+  - "organized"
+  memories:
+  - "Living with Emily, Oliver, and Sophia in the Villa Veranda has been an amazing\
+    \ experience. We have created many fun memories together."
+  - "I remember the time when we all decided to have a movie night in the living room.\
+    \ We laughed and enjoyed each other's company late into the night."
+  - "One of my favorite memories is when we organized a themed dinner party in the\
+    \ kitchen. We each cooked a dish that represented a different country, and it\
+    \ was a culinary adventure."
+  - "I will always cherish the memories of relaxing in the master bedroom after a\
+    \ long day. It's my sanctuary where I can recharge and find peace."
+  circRhythm: "8am to 12am"
+  currentAction: "reading a book"

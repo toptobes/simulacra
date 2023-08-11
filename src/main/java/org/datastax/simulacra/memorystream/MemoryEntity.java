@@ -8,7 +8,7 @@ import org.datastax.simulacra.ai.EmbeddingService;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
-import static org.datastax.simulacra.Utils.aggregatePages;
+import static org.datastax.simulacra.utils.Utils.aggregatePages;
 
 public record MemoryEntity(
     String agentName,

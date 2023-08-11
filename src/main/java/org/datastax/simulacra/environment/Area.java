@@ -2,14 +2,14 @@ package org.datastax.simulacra.environment;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import org.datastax.simulacra.utils.Map2ListSerializer;
 
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import static org.datastax.simulacra.Utils.*;
+import static org.datastax.simulacra.utils.Utils.*;
 
 public record Area(
     String name,

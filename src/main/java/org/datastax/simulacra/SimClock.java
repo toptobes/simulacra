@@ -28,6 +28,8 @@ public class SimClock {
     private static LocalDateTime simTime = START_TIME;
 
     public static void start() {
+        System.out.println("SimClock.start");
+
         exec.scheduleAtFixedRate(() -> {
             try {
                 var moment = Moment.forTime();
@@ -42,7 +44,7 @@ public class SimClock {
                 }
 
                 carryOutGodsWill();
-                HomemadeLogger.flush();
+                HomemadeLogger.flushLogs();
             } catch (Exception e) {
                 throwableFromThread.set(e);
             }
