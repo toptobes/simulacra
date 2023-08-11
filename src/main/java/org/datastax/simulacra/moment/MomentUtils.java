@@ -10,6 +10,9 @@ import java.util.function.Consumer;
 import static org.datastax.simulacra.utils.Utils.asyncListProcessor;
 
 public class MomentUtils {
+    /**
+     * Retries any agent that fails to complete its action. Only retries once.
+     */
     public static void withRetry(List<Agent> agents, Consumer<AsyncListThreader<Agent>> fn) {
         var retries = new ArrayList<Agent>();
 

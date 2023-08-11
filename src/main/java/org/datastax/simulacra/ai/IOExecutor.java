@@ -12,7 +12,7 @@ public class IOExecutor {
         return EXECUTOR;
     }
 
-    public static <U> CompletableFuture<U> supplyAsync(Supplier<U> supplier) {
+    public static <U> CompletableFuture<U> defaultSupplyAsync(Supplier<U> supplier) {
         return CompletableFuture.supplyAsync(supplier, EXECUTOR);
     }
 }

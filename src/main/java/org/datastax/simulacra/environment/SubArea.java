@@ -5,7 +5,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import org.datastax.simulacra.agents.Agent;
-import org.datastax.simulacra.utils.Map2ListSerializer;
+import org.datastax.simulacra.utils.Map2ValuesSerializer;
 
 import java.util.*;
 
@@ -17,7 +17,7 @@ public class SubArea {
     private final String name;
 
     @JsonProperty
-    @JsonSerialize(using = Map2ListSerializer.class)
+    @JsonSerialize(using = Map2ValuesSerializer.class)
     private final Map<String, Item> items;
 
     @JsonIgnore

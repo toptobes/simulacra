@@ -38,7 +38,7 @@ import static com.theokanning.openai.service.OpenAiService.*;
 import static java.util.Collections.singletonList;
 import static java.util.stream.Collectors.toMap;
 import static org.datastax.simulacra.utils.Utils.*;
-import static org.datastax.simulacra.ai.IOExecutor.supplyAsync;
+import static org.datastax.simulacra.ai.IOExecutor.defaultSupplyAsync;
 import static org.datastax.simulacra.logging.HomemadeLogger.err;
 import static org.datastax.simulacra.logging.HomemadeLogger.log;
 
@@ -56,22 +56,22 @@ public enum OpenAIService implements ChatService, EmbeddingService, FunctionServ
 
     @Override
     public CompletableFuture<String> query(String text) {
-        return supplyAsync(() -> queryNormalSync(text));
+        return defaultSupplyAsync(() -> queryNormalSync(text));
     }
 
     @Override
     public <T> CompletableFuture<T> query(String text, Class<T> body, Collection<?> ...providers) {
-        return supplyAsync(() -> queryFunctionSync(text, body, providers));
+        return defaultSupplyAsync(() -> queryFunctionSync(text, body, providers));
     }
 
     @Override
     public CompletableFuture<List<Float>> embed(String text) {
-        return supplyAsync(() -> embedSync(text));
+        return defaultSupplyAsync(() -> embedSync(text));
     }
 
     @Override
     public CompletableFuture<List<List<Float>>> embed(List<String> text) {
-        return awaitAll(map(text, t -> supplyAsync(() -> embedSync(t))));
+        return awaitAll(map(text, t -> defaultSupplyAsync(() -> embedSync(t))));
     }
 
     private List<Float> embedSync(String text) {
@@ -96,7 +96,7 @@ public enum OpenAIService implements ChatService, EmbeddingService, FunctionServ
     }
 
     private <T, R> R queryFunctionSync(String text, Class<T> body, Collection<?>[] providers) {
-        var annotation = body.getAnnotation(FunctionClass.class);
+        var annotation = body.getAnnotation(FunctionResponse.class);
 
         var fnName = body.getSimpleName();
         var fnDesc = annotation.desc().isEmpty() ? null : annotation.desc();

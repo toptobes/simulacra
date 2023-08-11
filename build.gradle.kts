@@ -1,9 +1,17 @@
+import org.gradle.kotlin.dsl.application
+
 plugins {
     id("java")
+    application
 }
 
-group = "com.example"
+group = "org.datastax.simulacra"
 version = "1.0-SNAPSHOT"
+
+application {
+    mainClass.set("org.datastax.simulacra.Main")
+    applicationDefaultJvmArgs = listOf("--enable-preview")
+}
 
 repositories {
     mavenCentral()
@@ -20,11 +28,6 @@ dependencies {
     implementation("com.datastax.oss:java-driver-core:4.17.0")
 }
 
-//java {
-//    sourceCompatibility = JavaVersion.VERSION_19
-//    targetCompatibility = JavaVersion.VERSION_19
-//}
-
 tasks.test {
     useJUnitPlatform()
 }
@@ -37,9 +40,6 @@ tasks.withType<JavaExec>().configureEach {
     jvmArgs("--enable-preview")
 }
 
-tasks.register("printJavaVersion") {
-    doLast {
-        println("Java Home Directory: ${System.getProperty("java.home")}")
-        println("Java Version: ${System.getProperty("java.version")}")
-    }
+tasks.withType<Test>().configureEach {
+    jvmArgs("--enable-preview")
 }

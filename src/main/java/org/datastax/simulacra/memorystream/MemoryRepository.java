@@ -19,7 +19,7 @@ import java.util.concurrent.CompletableFuture;
         importance INT,
         mem_type TINYINT,
         memory TEXT,
-        embedding VECTOR<FLOAT, 768>,
+        embedding VECTOR<FLOAT, ${ASTRA_MEMORY_DIMS:768}>,
         PRIMARY KEY (agent_name, created_at, memory_id)
     ) WITH CLUSTERING ORDER BY (created_at DESC, memory_id ASC);
     

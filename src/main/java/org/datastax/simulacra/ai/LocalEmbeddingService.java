@@ -9,24 +9,27 @@ import java.util.StringJoiner;
 import java.util.concurrent.CompletableFuture;
 
 import static org.datastax.simulacra.utils.Utils.map2list;
-import static org.datastax.simulacra.ai.IOExecutor.supplyAsync;
+import static org.datastax.simulacra.ai.IOExecutor.defaultSupplyAsync;
 
 public enum LocalEmbeddingService implements EmbeddingService {
     INSTANCE;
 
+    private final String EMBED_SERVICE_URL = System.getenv().getOrDefault("EMBED_SERVICE_URL", "http://localhost:5000/embed");
+
     private final HttpClient client = HttpClient.newHttpClient();
+
     private final HttpRequest.Builder requestBuilder = HttpRequest.newBuilder()
-        .uri(URI.create("http://localhost:5000/embed"))
+        .uri(URI.create(EMBED_SERVICE_URL))
         .header("Content-Type", "application/json");
 
     @Override
     public CompletableFuture<List<Float>> embed(String text) {
-        return supplyAsync(() -> embedSync(List.of(text)).get(0));
+        return defaultSupplyAsync(() -> embedSync(List.of(text)).get(0));
     }
 
     @Override
     public CompletableFuture<List<List<Float>>> embed(List<String> text) {
-        return supplyAsync(() -> embedSync(text));
+        return defaultSupplyAsync(() -> embedSync(text));
     }
 
     private List<List<Float>> embedSync(List<String> text) {

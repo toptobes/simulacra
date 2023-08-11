@@ -4,7 +4,7 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import org.datastax.simulacra.agents.Agent;
 import org.datastax.simulacra.agents.AgentRegistry;
 import org.datastax.simulacra.ai.EnumType;
-import org.datastax.simulacra.ai.FunctionClass;
+import org.datastax.simulacra.ai.FunctionResponse;
 import org.datastax.simulacra.ai.FunctionService;
 import org.datastax.simulacra.environment.Area;
 import org.datastax.simulacra.environment.SubArea;
@@ -54,7 +54,7 @@ public class SimFactory {
         }).join();
     }
 
-    @FunctionClass
+    @FunctionResponse
     private record HouseDTO(
         String name,
         String description,
@@ -63,7 +63,7 @@ public class SimFactory {
         List<SubArea> subAreas
     ) {}
 
-    @FunctionClass
+    @FunctionResponse
     private record PlaceDTO(
         String name,
         String description,

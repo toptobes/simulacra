@@ -6,7 +6,7 @@ import org.datastax.simulacra.SimClock;
 import org.datastax.simulacra.utils.Utils;
 import org.datastax.simulacra.agents.Agent;
 import org.datastax.simulacra.ai.ChatService;
-import org.datastax.simulacra.ai.FunctionClass;
+import org.datastax.simulacra.ai.FunctionResponse;
 import org.datastax.simulacra.ai.FunctionService;
 import org.datastax.simulacra.memorystream.MemoryEntity;
 
@@ -78,7 +78,7 @@ public class Conversation {
         });
     }
 
-    @FunctionClass
+    @FunctionResponse
     private record ConversationResponse(
         @JsonPropertyDescription("The next message in the conversation")
         @JsonProperty(required = true)

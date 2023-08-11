@@ -52,7 +52,7 @@ public class Utils {
     }
 
     @SuppressWarnings("unchecked")
-    public static <A, B> void zipIter(List<A> a, List<B> b, BiConsumer<A, B> fn) {
+    public static <A, B> void zipForEach(List<A> a, List<B> b, BiConsumer<A, B> fn) {
         IntStream.range(0, min(a.size(), b.size()))
             .mapToObj(i -> new Object[] { a.get(i), b.get(i) })
             .forEach(e -> fn.accept((A) e[0], (B) e[1]));

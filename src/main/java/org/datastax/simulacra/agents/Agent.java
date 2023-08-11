@@ -5,7 +5,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyDescription;
 import org.datastax.simulacra.SimClock;
 import org.datastax.simulacra.ai.ChatService;
 import org.datastax.simulacra.ai.EnumType;
-import org.datastax.simulacra.ai.FunctionClass;
+import org.datastax.simulacra.ai.FunctionResponse;
 import org.datastax.simulacra.ai.FunctionService;
 import org.datastax.simulacra.conversation.ConversationsRegistry;
 import org.datastax.simulacra.environment.Area;
@@ -132,7 +132,7 @@ public class Agent {
         ).thenCompose(v -> planRestOfHour(reason));
     }
 
-    @FunctionClass
+    @FunctionResponse
     private record HourlyPlan(
         @JsonProperty(required = true)
         String minute00,
@@ -200,7 +200,7 @@ public class Agent {
         return synthesizeObservation(observations.toString());
     }
 
-    @FunctionClass
+    @FunctionResponse
     private record MomentPlan(
         @JsonPropertyDescription("The action the agent should be doing for the next " + SimClock.TIME_GRANULARITY + " minutes")
         @JsonProperty(required = true)
@@ -270,7 +270,7 @@ public class Agent {
                 log(this, subarea.items().keySet());
 
                 if (response.items != null) {
-                    zipIter(response.items, response.correspondingItemStatuses, subarea::findAndUpdateItem);
+                    zipForEach(response.items, response.correspondingItemStatuses, subarea::findAndUpdateItem);
                 }
 
                 currentAction = response.action;
@@ -282,7 +282,7 @@ public class Agent {
         });
     }
 
-    @FunctionClass
+    @FunctionResponse
     private record MomentPlanV2(
         @JsonPropertyDescription("Whether or not the agent should react to the observation")
         @JsonProperty(required = true)
@@ -341,7 +341,7 @@ public class Agent {
         });
     }
 
-    @FunctionClass
+    @FunctionResponse
     private record PlanPlace(
         @EnumType
         @JsonProperty(required = true)
@@ -392,7 +392,7 @@ public class Agent {
         });
     }
 
-    @FunctionClass
+    @FunctionResponse
     private record ReflectionQuestions(
         String q1,
         String q2,
@@ -476,7 +476,7 @@ public class Agent {
         });
     }
 
-    @FunctionClass
+    @FunctionResponse
     private record Observation(
         @JsonPropertyDescription("The synthesized, actionable, observation")
         @JsonProperty(required = true)
@@ -522,7 +522,7 @@ public class Agent {
         });
     }
 
-    @FunctionClass
+    @FunctionResponse
     private record ObservationV2(
         @JsonPropertyDescription("The non-inflated, conservative importance of each observation. Be realistic, don't try to draw out meaning. It should be based on importance to remember, be conservative.")
         @JsonProperty(required = true)

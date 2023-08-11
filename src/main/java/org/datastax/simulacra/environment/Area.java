@@ -3,7 +3,7 @@ package org.datastax.simulacra.environment;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-import org.datastax.simulacra.utils.Map2ListSerializer;
+import org.datastax.simulacra.utils.Map2ValuesSerializer;
 
 import java.util.List;
 import java.util.Map;
@@ -15,7 +15,7 @@ public record Area(
     String name,
     String description,
     String category,
-    @JsonSerialize(using = Map2ListSerializer.class) Map<String, SubArea> subareas
+    @JsonSerialize(using = Map2ValuesSerializer.class) Map<String, SubArea> subareas
 ) {
     @JsonCreator
     public static Area createArea(

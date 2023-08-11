@@ -1,5 +1,6 @@
 package org.datastax.simulacra;
 
+import org.datastax.simulacra.agents.Agent;
 import org.datastax.simulacra.agents.AgentRegistry;
 import org.datastax.simulacra.logging.HomemadeLogger;
 import org.datastax.simulacra.moment.Moment;
@@ -14,6 +15,7 @@ import java.util.concurrent.atomic.AtomicReference;
 
 import static java.lang.Integer.parseInt;
 import static java.util.concurrent.TimeUnit.MILLISECONDS;
+import static org.datastax.simulacra.utils.Utils.filter;
 
 public class SimClock {
     public static final int TIME_GRANULARITY = 10;
@@ -32,11 +34,12 @@ public class SimClock {
 
         exec.scheduleAtFixedRate(() -> {
             try {
-                var moment = Moment.forTime();
+                var moment = Moment.determine();
 
                 AgentRegistry
                     .chunkedBySubarea()
                     .parallelStream()
+                    .peek(chunk -> filter(chunk, Agent::isInConversation))
                     .forEach(moment::elapse);
 
                 if (moment.elapsesTime()) {

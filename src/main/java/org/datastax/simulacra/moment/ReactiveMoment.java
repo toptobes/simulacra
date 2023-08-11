@@ -30,7 +30,6 @@ public enum ReactiveMoment implements Moment {
                     agent.setCurrentAction(agent.getPlan().planForTheHour().get(SimClock.time().getHour() / SimClock.TIME_GRANULARITY));
                 }
             })
-            .discardIf(Agent::isInConversation)
             .peek(Agent::observe)
             .peek(Agent::planMoment)
             .discardIf(Agent::isInConversation)

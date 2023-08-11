@@ -8,6 +8,9 @@ import java.util.List;
 import static org.datastax.simulacra.utils.Utils.map;
 import static org.datastax.simulacra.utils.Utils.useWriter;
 
+/**
+ * meh
+ */
 public class HomemadeLogger {
     private static final ActionRepository repository = new ActionRepository();
 

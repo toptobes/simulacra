@@ -20,7 +20,8 @@ public class Main {
         setUpDirectories();
         CqlSessionManager.initialize();
 
-        SimFactory.loadSimulation(100);
+        int numAgents = Integer.parseInt(System.getenv().getOrDefault("NUM_AGENTS", "3"));
+        SimFactory.loadSimulation(numAgents);
 
         ConversationsManager.start();
         SimClock.start();

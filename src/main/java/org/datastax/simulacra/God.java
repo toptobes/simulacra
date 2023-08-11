@@ -39,7 +39,7 @@ public class God {
 
     public static boolean poll() {
         if (!waitingForResponse) {
-            System.out.println("\nUniverse> What do you want to do?");
+            System.out.println("\nUniverse> What do you want to do? (Type nvm @ any time to cancel)");
 
             int[] i = { 0 };
             commands.keySet().forEach(command -> {

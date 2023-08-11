@@ -9,10 +9,10 @@ public sealed interface Moment permits ProactiveMoment, ReactiveMoment, Reflecti
     void elapse(List<Agent> agents);
     boolean elapsesTime();
 
-    // { reflected, planned }
+    // { hasReflected, hasPlanned }
     boolean[] ref = new boolean[] { false, false };
 
-    static Moment forTime() {
+    static Moment determine() {
         return
             (SimClock.time().getHour() == SimClock.START_TIME.getHour() && SimClock.time().getMinute() == 0 && (ref[0] = !ref[0]))
                 ? ReflectiveMoment.INSTANCE :

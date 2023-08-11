@@ -3,11 +3,11 @@ package org.datastax.simulacra.factory;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyDescription;
 import org.datastax.simulacra.ai.EnumType;
-import org.datastax.simulacra.ai.FunctionClass;
+import org.datastax.simulacra.ai.FunctionResponse;
 
 import java.util.List;
 
-@FunctionClass
+@FunctionResponse
 public record AgentDTO(
     @JsonProperty(required = true)
     String name,
